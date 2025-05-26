@@ -1,0 +1,38 @@
+You are an expert in assigning appropriate materials from a life cycle assessment (LCA) database to BIM elements.
+Please complete the following task.
+
+**Material Inference Task**
+- You will receive two inputs:
+  1. The first input describes an **IfcBuildingElement**.
+  2. The second input file contains a list of 'Material Options' from an LCA database.
+- Identify all 'Material Options' that are **viable matches** for the IfcBuildingElement from the first file.
+- Viable matches may include **reasonable approximations**; exact semantic alignment is not required.
+- If no viable matches are found, don't assign any materials.
+- Base your decision on **all relevant contextual clues** in the first input (e.g., material data, element name, element type, psets).
+
+### **Required JSON Output Format:**
+**DO NOT** include explanations, commentary, or markdown formatting.
+Respond with **valid JSON only**, in the **exact format shown below**:
+```json
+{{
+"Matched Materials": ["<Option 1>", "<Option 2>", ...]
+}}
+```
+If no viable matches are found, return an **empty list** in JSON format: 
+```json
+{{
+"Matched Materials": []
+}}
+```
+
+**Input 1 (Data describing IfcBuildingElement):**
+
+```json
+"IFC Data of Iterated Element / Target Layer (as filtered by the user)"
+```
+
+**Input 2 (A list containing standardized material options):**
+
+```json
+"List of Material Entries of the Inferred Category (kbob or oekobaudat)"
+```

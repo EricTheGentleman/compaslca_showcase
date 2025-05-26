@@ -1,0 +1,39 @@
+You are an expert in classifying BIM elements to life cycle assessment (LCA) categories.
+Please complete the following task.
+
+**Category Inference Task**
+- You will receive two inputs:
+  1. The first input describes an **IfcBuildingElement**.
+  2. The second input file contains a list of 'Categories' from an LCA database.
+- Identify the most accurate category for the IfcBuildingElement from the first file.
+- In general, if a material name is available, then prioritize matching the category based on the material name, rather than something else.
+- You must match a category where you anticipate finding viable material entries for the IfcBuildingElement.
+- If the IfcBuildingElement cannot be clearly classified, assign an empty list.
+- If there is no material name, base your decision on **all other relevant contextual clues** in the first input (e.g., element name, element type, psets).
+
+### **Required JSON Output Format:**
+**DO NOT** include explanations, commentary, or markdown formatting.
+Respond with **valid JSON only**, in the **exact format shown below**:
+```json
+{{
+"Matched Category": "<Chosen Category>"
+}}
+```
+If no viable match is found, return "None" for the "Matched Category" key:
+```json
+{{
+"Matched Category": "None"
+}}
+```
+
+**Input 1 (Data describing IfcBuildingElement):**
+
+```json
+"IFC Data of Iterated Element / Target Layer (as filtered by the user)"
+```
+
+**Input 2 (A list containing categories for an LCA database):**
+
+```json
+"List of Category Entries of the Current Node (kbob or oekobaudat)"
+```
