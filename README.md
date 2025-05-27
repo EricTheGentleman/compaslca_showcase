@@ -103,6 +103,8 @@ You will get:
 
 You can adjust the prompt or model settings before proceeding to the next module by editing `master_config.yaml`.
 
+If you want to do the inference for both KBOB and OEKOBAUDAT, then you can run modules 2-4 with one database configuration in `master_config.yaml`, and then change the database configuration and rerun modules 2-4. All results will be stored in corresponding folders (so no files are overwritten when the database configuration is changed).
+
 ---
 
 ## Tips & Warnings
