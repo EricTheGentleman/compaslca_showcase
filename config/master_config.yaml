@@ -30,8 +30,7 @@ category_inference_config:
 
   model: "gpt-4o"
 
-  api_key: 'YOUR_API_KEY'  # Replace with your actual API key
-  
+  api_key: 'YOUR_API_KEY_HERE'  # Replace with your actual API key
   max_tokens: 2048
 
   temperature: 0
@@ -46,7 +45,7 @@ material_inference_config:
   model: "gpt-4o"
 
   # insert the API key in single quotation marks (')
-  api_key: 'YOUR_API_KEY'  # Replace with your actual API key
+  api_key: 'YOUR_API_KEY_HERE'  # Replace with your actual API key
   
   max_tokens: 2048
 
