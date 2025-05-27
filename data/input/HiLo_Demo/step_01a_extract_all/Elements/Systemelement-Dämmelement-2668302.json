@@ -1,0 +1,127 @@
+{
+    "Element Metadata": {
+        "Name": "Systemelement:Dämmelement:2668302",
+        "UID": "56516",
+        "GlobalId": "1a1$QVmKz8nRXZVkIMOO8V",
+        "Type": "IfcPlate",
+        "ObjectType": "Systemelement:Dämmelement",
+        "Classification": "Not defined",
+        "Decomposes": {
+            "Name": "Curtain Wall:Fassade 250:2668300",
+            "IfcEntity": "IfcCurtainWall",
+            "GlobalId": "1a1$QVmKz8nRXZVkIMOO8T"
+        },
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Wärmedämmung druckfest",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 0.0136,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0135904543288,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 1.4330558399,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 1.35,
+            "Y": 0.02,
+            "Z": 0.51,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0138,
+        "Real Volume to Bounding Box Volume Ratio": 0.985,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Area": "0.679522716442132",
+            "Height": "505.197994470266",
+            "Volume": "0.0135904543288423",
+            "Width": "1345.0621813229",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Curtain Panels",
+            "Family": "Systemelement: Dämmelement",
+            "Family and Type": "Systemelement: Dämmelement",
+            "Type": "Systemelement: Dämmelement",
+            "Type Id": "Systemelement: Dämmelement",
+            "Host Id": "Curtain Wall: Fassade 250",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Define Thermal Properties by": "Schematic Type",
+            "Analytical Properties.Analytic Construction": "<None",
+            "Constraints.Offset": "6.0",
+            "Data.Unternehmer": "Pletscher / Kaufmann",
+            "Dimensions.Thickness": "20.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Cost": "50.0",
+            "Identity Data.Type Name": "Dämmelement",
+            "Identity Data.Workset": "Family  : Curtain Panels : Systemelement",
+            "Materials and Finishes.Material": "Wärmedämmung druckfest",
+            "Other.Category": "Curtain Panels",
+            "Other.Family Name": "Systemelement"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "Unknown",
+                "type": "Unknown"
+            }
+        ]
+    }
+}

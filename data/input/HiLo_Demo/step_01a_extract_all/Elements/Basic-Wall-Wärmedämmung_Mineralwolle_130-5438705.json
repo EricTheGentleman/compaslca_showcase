@@ -1,0 +1,175 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Wärmedämmung_Mineralwolle_130:5438705",
+        "UID": "434468",
+        "GlobalId": "33h3WSCGjA3hXPqG04f7HL",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:Wärmedämmung_Mineralwolle_130",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:Wärmedämmung_Mineralwolle_130",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Wärmedämmung Mineralwolle, 0.035 W/mK",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.13,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, growing in the opposite direction from its reference surface."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.13,
+            "Width unit": "METRE",
+            "Length": 4.46,
+            "Length unit": "METRE",
+            "Height": 0.215,
+            "Height unit": "METRE",
+            "Gross Side Area": 0.9589,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 0.9589,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.5798,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.1247,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.1247,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Curve2D",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.124657,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 3.1333,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 4.46,
+            "Y": 0.13,
+            "Z": 0.22,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.1276,
+        "Real Volume to Bounding Box Volume Ratio": 0.977,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Top Constraint": "Level: 01_Galerie",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Location Line": "Finish Face: Exterior",
+            "Base Constraint": "Level: 01_Galerie",
+            "Room Bounding": "False",
+            "Base Offset": "-245.0",
+            "Top Offset": "-29.9999999999239",
+            "Unconnected Height": "215.000000000076",
+            "Area": "0.95890000000034",
+            "Length": "4460.0",
+            "Volume": "0.124657000000045",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: Wärmedämmung_Mineralwolle_130",
+            "Family and Type": "Basic Wall: Wärmedämmung_Mineralwolle_130",
+            "Type": "Basic Wall: Wärmedämmung_Mineralwolle_130",
+            "Type Id": "Basic Wall: Wärmedämmung_Mineralwolle_130",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "0.261538461538462",
+            "Analytical Properties.Thermal Mass": "0.408336731712",
+            "Analytical Properties.Thermal Resistance (R)": "3.82352941176471",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Exterior",
+            "Construction.Width": "130.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "12632256",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Cost": "80.0",
+            "Identity Data.Type Name": "Wärmedämmung_Mineralwolle_130",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

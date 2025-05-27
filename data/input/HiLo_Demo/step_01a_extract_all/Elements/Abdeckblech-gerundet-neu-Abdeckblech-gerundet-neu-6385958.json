@@ -1,0 +1,126 @@
+{
+    "Element Metadata": {
+        "Name": "Abdeckblech gerundet-neu:Abdeckblech gerundet-neu:6385958",
+        "UID": "680122",
+        "GlobalId": "2oh_llra11RhmuIm1tpMzA",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "Abdeckblech gerundet-neu:Abdeckblech gerundet-neu",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "<Unnamed>",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": -0.48423635045639996,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 15.623488531,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 16.59,
+            "Y": 9.32,
+            "Z": 4.54,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 701.9694,
+        "Real Volume to Bounding Box Volume Ratio": -0.001,
+        "Face Count (tessellated element)": {
+            "Face Count": 1796
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 1828
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 3608
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Moves With Nearby Elements": "False",
+            "Elevation from Level": "0.0",
+            "Offset from Host": "0.0",
+            "Host": "Level : 00_Eingang",
+            "Area": "7.81169198581043",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Generic Models",
+            "Family": "Abdeckblech gerundet-neu: Abdeckblech gerundet-neu",
+            "Family and Type": "Abdeckblech gerundet-neu: Abdeckblech gerundet-neu",
+            "Type": "Abdeckblech gerundet-neu: Abdeckblech gerundet-neu",
+            "Type Id": "Abdeckblech gerundet-neu: Abdeckblech gerundet-neu",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Constraints.Default Elevation": "0.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Type Name": "Abdeckblech gerundet-neu",
+            "Identity Data.Workset": "Family  : Generic Models : Abdeckblech gerundet-neu",
+            "Other.Category": "Generic Models",
+            "Other.Family Name": "Abdeckblech gerundet-neu"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

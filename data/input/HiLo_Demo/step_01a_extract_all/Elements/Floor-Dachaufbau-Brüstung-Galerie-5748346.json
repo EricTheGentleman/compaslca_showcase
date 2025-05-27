@@ -1,0 +1,132 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:Dachaufbau Brüstung Galerie:5748346",
+        "UID": "553915",
+        "GlobalId": "1ZIRQX$TfEIRikXNstb4X1",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:Dachaufbau Brüstung Galerie",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 0.129,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Brep"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.1290456964317,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 5.9645819082000004,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.68,
+            "Y": 4.39,
+            "Z": 0.07,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.209,
+        "Real Volume to Bounding Box Volume Ratio": 0.617,
+        "Face Count (tessellated element)": {
+            "Face Count": 76
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 146
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 187
+        },
+        "Primary Object Axis (Cardinal Direction)": "N"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Level": "Level: 01_Brüstung",
+            "Height Offset From Level": "-313.000000000003",
+            "Area": "2.74964195272484",
+            "Perimeter": "9752.38712175693",
+            "Thickness": "177.0",
+            "Volume": "0.129044217149044",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Comments": "Im Gefällle verlegt",
+            "Category": "Floors",
+            "Family": "Floor: Dachaufbau Brüstung Galerie",
+            "Family and Type": "Floor: Dachaufbau Brüstung Galerie",
+            "Type": "Floor: Dachaufbau Brüstung Galerie",
+            "Type Id": "Floor: Dachaufbau Brüstung Galerie",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "0.214294208586039",
+            "Analytical Properties.Thermal Mass": "2.4373279769472",
+            "Analytical Properties.Thermal Resistance (R)": "4.66648168701443",
+            "Construction.Function": "Interior",
+            "Construction.Default Thickness": "177.0",
+            "Data.Unternehmer": "Kaufmann / Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "12632256",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Floor Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "Dachaufbau Brüstung Galerie",
+            "Other.Category": "Floors",
+            "Other.Family Name": "Floor"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:3-Schichtplatte 27mm B/C Rinnen:6154433",
+        "UID": "629931",
+        "GlobalId": "3FgvoyW9nCf8PhpiAfh2B7",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:3-Schichtplatte 27mm B/C Rinnen",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "3-Schicht-Platte",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 0.1006,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Brep"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.1006443601131,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 7.8068439177,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 5.94,
+            "Y": 0.64,
+            "Z": 0.03,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.114,
+        "Real Volume to Bounding Box Volume Ratio": 0.883,
+        "Face Count (tessellated element)": {
+            "Face Count": 76
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 120
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 174
+        },
+        "Primary Object Axis (Cardinal Direction)": "S"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Level": "Level: 01_Galerie",
+            "Room Bounding": "False",
+            "Height Offset From Level": "-248.0",
+            "Area": "3.72752866135743",
+            "Perimeter": "12940.0263153665",
+            "Thickness": "27.0",
+            "Volume": "0.100643266790448",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Floors",
+            "Family": "Floor: 3-Schichtplatte 27mm B/C Rinnen",
+            "Family and Type": "Floor: 3-Schichtplatte 27mm B/C Rinnen",
+            "Type": "Floor: 3-Schichtplatte 27mm B/C Rinnen",
+            "Type Id": "Floor: 3-Schichtplatte 27mm B/C Rinnen",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "3.92592592592593",
+            "Analytical Properties.Thermal Mass": "1.9661702095872",
+            "Analytical Properties.Thermal Resistance (R)": "0.254716981132075",
+            "Construction.Function": "Interior",
+            "Construction.Default Thickness": "27.0",
+            "Data.Unternehmer": "Kaufmann / Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Floor Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "3-Schichtplatte 27mm B/C Rinnen",
+            "Materials and Finishes.Structural Material": "3-Schicht-Platte",
+            "Other.Category": "Floors",
+            "Other.Family Name": "Floor"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

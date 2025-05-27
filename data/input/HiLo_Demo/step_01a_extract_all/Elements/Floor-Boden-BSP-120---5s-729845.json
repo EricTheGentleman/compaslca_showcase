@@ -1,0 +1,162 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:Boden BSP 120 - 5s:729845",
+        "UID": "7532",
+        "GlobalId": "2ro6NVukjA0hxWwZJgTpIl",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:Boden BSP 120 - 5s",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Floor:Boden BSP 120 - 5s",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Brettsperrholz",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.12,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked vertically, defining the element’s buildup."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 0.6181,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.6179681268417,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 12.5777516943,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 7.97,
+            "Y": 3.16,
+            "Z": 0.12,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 3.0222,
+        "Real Volume to Bounding Box Volume Ratio": 0.204,
+        "Face Count (tessellated element)": {
+            "Face Count": 60
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 102
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 141
+        },
+        "Primary Object Axis (Cardinal Direction)": "SE"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Level": "Level: 01_Galerie",
+            "Height Offset From Level": "-475.0",
+            "Area": "5.15123712345277",
+            "Core Thickness": "120.0",
+            "Elevation at Bottom": "2324.99999999991",
+            "Elevation at Bottom Core": "2324.99999999991",
+            "Elevation at Bottom Survey": "2324.99999999991",
+            "Elevation at Top": "2444.99999999991",
+            "Elevation at Top Core": "2444.99999999991",
+            "Elevation at Top Survey": "2444.99999999991",
+            "Perimeter": "19097.1945602346",
+            "Thickness": "120.0",
+            "Volume": "0.618148454814355",
+            "Edited by": "",
+            "Workset": "Tragwerk",
+            "Category": "Floors",
+            "Family": "Floor: Boden BSP 120 - 5s",
+            "Family and Type": "Floor: Boden BSP 120 - 5s",
+            "Type": "Floor: Boden BSP 120 - 5s",
+            "Type Id": "Floor: Boden BSP 120 - 5s",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Rebar Cover - Bottom Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Rebar Cover - Other Faces": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Rebar Cover - Top Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Structural": "True"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "0.883333333333333",
+            "Analytical Properties.Thermal Mass": "8.738534264832",
+            "Analytical Properties.Thermal Resistance (R)": "1.13207547169811",
+            "Construction.Function": "Interior",
+            "Construction.Default Thickness": "120.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Floor Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Description": "5-lagig",
+            "Identity Data.Feuerwiderstandsklasse": "R30",
+            "Identity Data.Type Name": "Boden BSP 120 - 5s",
+            "Materials and Finishes.Structural Material": "Brettsperrholz",
+            "Other.Category": "Floors",
+            "Other.Family Name": "Floor"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

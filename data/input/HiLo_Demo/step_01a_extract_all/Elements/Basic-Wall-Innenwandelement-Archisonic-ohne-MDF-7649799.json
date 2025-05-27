@@ -1,0 +1,173 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Innenwandelement Archisonic ohne MDF:7649799",
+        "UID": "1108350",
+        "GlobalId": "3a_AAgCiPC4Pn3ptZJGCvl",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:Innenwandelement Archisonic ohne MDF",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:Innenwandelement Archisonic ohne MDF",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Archisonic Charcoal",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.012,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, growing in the opposite direction from its reference surface."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.012,
+            "Width unit": "METRE",
+            "Length": 1.7708,
+            "Length unit": "METRE",
+            "Height": 0.235,
+            "Height unit": "METRE",
+            "Gross Side Area": 0.4161,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 0.4161,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.0212,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.005,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.005,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Curve2D",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0049935424057,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.8803953009000001,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 1.77,
+            "Y": 0.01,
+            "Z": 0.24,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0042,
+        "Real Volume to Bounding Box Volume Ratio": 1.189,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Location Line": "Core Face: Exterior",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Base Constraint": "Level: 00_Eingang",
+            "Top Constraint": "Level: 01_UK Decke",
+            "Base Offset": "2205.0",
+            "Top Offset": "140.0",
+            "Unconnected Height": "235.0",
+            "Area": "0.41612853381124",
+            "Length": "1770.7597183457",
+            "Volume": "0.0049935424057351",
+            "Edited by": "",
+            "Workset": "Innenausbau",
+            "Category": "Walls",
+            "Family": "Basic Wall: Innenwandelement Archisonic ohne MDF",
+            "Family and Type": "Basic Wall: Innenwandelement Archisonic ohne MDF",
+            "Type": "Basic Wall: Innenwandelement Archisonic ohne MDF",
+            "Type Id": "Basic Wall: Innenwandelement Archisonic ohne MDF",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Construction.Width": "12.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Description": "TYP A",
+            "Identity Data.Type Name": "Innenwandelement Archisonic ohne MDF",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

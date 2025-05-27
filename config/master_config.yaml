@@ -19,7 +19,7 @@ database_config:
   # KBOB is a smaller database with specifc materials for the Swiss environment
   # Oekobaudat is more comprehensive, but requires more token usage and is more expensive (by a factor of 2-3)
   # Write in small letters "kbob" or "oekobaudat"
-  database: "oekobaudat"    #("kbob"/"oekobaudat")
+  database: "kbob"    #("kbob"/"oekobaudat")
 
 
 # === Category Inference Settings ===

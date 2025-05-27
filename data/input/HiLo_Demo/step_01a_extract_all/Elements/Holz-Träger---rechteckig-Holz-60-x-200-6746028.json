@@ -1,0 +1,159 @@
+{
+    "Element Metadata": {
+        "Name": "Holz Träger - rechteckig:Holz 60 x 200:6746028",
+        "UID": "1070023",
+        "GlobalId": "3HKetHYej9GOHxhgMpfwGS",
+        "Type": "IfcBeam",
+        "ObjectType": "Holz Träger - rechteckig:Holz 60 x 200",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Holz - C 24 Cl.1",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Length": 1.438,
+            "Length unit": "METRE",
+            "Net Volume": 0.019,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Curve2D",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0189816,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.83168,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 1.44,
+            "Y": 0.06,
+            "Z": 0.22,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.019,
+        "Real Volume to Bounding Box Volume Ratio": 0.999,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Cross-Section Rotation": "0.0",
+            "End Level Offset": "0.0",
+            "Orientation": "Normal",
+            "Reference Level": "Level: 00_Eingang",
+            "Reference Level Elevation": "0.0",
+            "Start Level Offset": "0.0",
+            "Work Plane": "Level : 00_Eingang",
+            "Elevation at Bottom": "-405.000000000002",
+            "Elevation at Top": "-185.000000000002",
+            "Length": "1438.0",
+            "Volume": "0.0189816000000001",
+            "Join Status": "One or two joins disabled",
+            "Start Extension": "0.0",
+            "y Justification": "Origin",
+            "y Offset Value": "0.0",
+            "yz Justification": "Uniform",
+            "z Justification": "Top",
+            "End Extension": "0.0",
+            "z Offset Value": "-185.0",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Structural Framing",
+            "Family": "Holz Träger - rechteckig: Holz 60 x 200",
+            "Family and Type": "Holz Träger - rechteckig: Holz 60 x 200",
+            "Type": "Holz Träger - rechteckig: Holz 60 x 200",
+            "Type Id": "Holz Träger - rechteckig: Holz 60 x 200",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Stick Symbol Location": "Center of Geometry",
+            "Cut Length": "1438.0",
+            "Structural Usage": "Joist"
+        },
+        "Psets Object Type": {
+            "Dimensions.B": "60.0",
+            "Dimensions.H": "220.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Type Comments": "",
+            "Identity Data.Type Name": "Holz 60 x 200",
+            "Identity Data.Workset": "Family  : Structural Framing : Holz Träger - rechteckig",
+            "Materials and Finishes.Structural Material": "Holz - C 24 Cl.1",
+            "Other.Category": "Structural Framing",
+            "Other.Family Name": "Holz Träger - rechteckig",
+            "Structural.Section Shape": "31",
+            "Structural Analysis.Moment of Inertia strong axis": "5.324e-05",
+            "Structural Analysis.Moment of Inertia weak axis": "3.96e-06",
+            "Structural Analysis.Perimeter": "560.0",
+            "Structural Analysis.Section Area": "0.0132",
+            "Structural Section Geometry.Height": "220.0",
+            "Structural Section Geometry.Width": "60.0"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

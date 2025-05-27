@@ -1,0 +1,151 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Technikschnittstelle:6225020",
+        "UID": "657274",
+        "GlobalId": "1dVujdEGf0jAkYJBqtyZ1W",
+        "Type": "IfcWall",
+        "ObjectType": "Basic Wall:Technikschnittstelle",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSet",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Gipsfaserplatte",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.025,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "Brep",
+            "Curve2D"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.131655221455,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 10.7839881594,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 1.49,
+            "Y": 3.55,
+            "Z": 0.03,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.1587,
+        "Real Volume to Bounding Box Volume Ratio": 0.83,
+        "Face Count (tessellated element)": {
+            "Face Count": 16
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 30
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 39
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Base Constraint": "Level: 00_Eingang",
+            "Location Line": "Core Face: Interior",
+            "Top Constraint": "Level: 01_UK Decke",
+            "Base Offset": "-424.999999999977",
+            "Top Offset": "864.999621023658",
+            "Unconnected Height": "3589.99962102364",
+            "Area": "5.26675174005795",
+            "Length": "1485.0",
+            "Volume": "0.131655221454952",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: Technikschnittstelle",
+            "Family and Type": "Basic Wall: Technikschnittstelle",
+            "Type": "Basic Wall: Technikschnittstelle",
+            "Type Id": "Basic Wall: Technikschnittstelle",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Construction.Width": "25.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "12632256",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "Technikschnittstelle",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

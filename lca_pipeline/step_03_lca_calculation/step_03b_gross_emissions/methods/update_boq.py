@@ -27,8 +27,16 @@ def append_emissions_to_csv(csv_path, json_dir, output_csv_path, config_database
         keys_to_analyze = [
             "GWPbiogenic",
             "GWPfossil",
-            "GWPtotal"
+            "GWPtotal",
+            "GWPtotal (A1-A3)",
+            "GWPtotal (A4)",
+            "GWPtotal (A5)",
+            "GWPtotal (C1)",
+            "GWPtotal (C2)",
+            "GWPtotal (C3)",
+            "GWPtotal (C4)"
         ]
+
 
     csv_path = Path(csv_path)
     json_dir = Path(json_dir)
@@ -63,22 +71,51 @@ def append_emissions_to_csv(csv_path, json_dir, output_csv_path, config_database
                 matching_file = data
                 break
 
-        # If no matching file found, leave new fields empty
+        # If no matching file found, mark all as "not matched"
         if not matching_file:
             for key in keys_to_analyze:
-                row[f"{key} (min)"] = ""
-                row[f"{key} (mean)"] = ""
-                row[f"{key} (max)"] = ""
+                row[f"{key} (min)"] = "not matched"
+                row[f"{key} (mean)"] = "not matched"
+                row[f"{key} (max)"] = "not matched"
             continue
 
         materials = matching_file.get(indicator_field, [])
 
+        # If all materials are "None", treat as not matched
+        if all(mat.get("Name", "").lower() == "none" for mat in materials):
+            for key in keys_to_analyze:
+                row[f"{key} (min)"] = "not matched"
+                row[f"{key} (mean)"] = "not matched"
+                row[f"{key} (max)"] = "not matched"
+            continue
+
         for key in keys_to_analyze:
             try:
-                values = [
-                    float(mat[key]) for mat in materials
-                    if key in mat and mat.get("Name", "").lower() != "none"
-                ]
+                if key == "GWPtotal (A1-A3)":
+                    values = []
+                    for mat in materials:
+                        if mat.get("Name", "").lower() == "none":
+                            continue
+                        val = mat.get("GWPtotal (A1-A3)")
+                        if val not in (None, "", "null"):
+                            try:
+                                values.append(float(val))
+                            except ValueError:
+                                continue
+                        else:
+                            # Try summing A1 + A2 + A3
+                            try:
+                                a1 = float(mat.get("GWPtotal (A1)", 0) or 0)
+                                a2 = float(mat.get("GWPtotal (A2)", 0) or 0)
+                                a3 = float(mat.get("GWPtotal (A3)", 0) or 0)
+                                values.append(round(a1 + a2 + a3, 4))
+                            except ValueError:
+                                continue
+                else:
+                    values = [
+                        float(mat[key]) for mat in materials
+                        if key in mat and mat.get("Name", "").lower() != "none"
+                    ]
             except ValueError:
                 values = []
 

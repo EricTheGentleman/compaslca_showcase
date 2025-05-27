@@ -1,0 +1,129 @@
+{
+    "Element Metadata": {
+        "Name": "Contec_NotueberlaufEckig:Contec_NotueberlaufEckig:7131598",
+        "UID": "1093300",
+        "GlobalId": "1s7hF4kkb7XRX_dK$UQExS",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "Contec_NotueberlaufEckig:Contec_NotueberlaufEckig",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "3D-Schnittmaterial",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0010369056149000001,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.4266729415,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.34,
+            "Y": 0.25,
+            "Z": 0.3,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0255,
+        "Real Volume to Bounding Box Volume Ratio": 0.041,
+        "Face Count (tessellated element)": {
+            "Face Count": 88
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 128
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 196
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Moves With Nearby Elements": "False",
+            "Level": "Level: 01_Brüstung",
+            "Elevation from Level": "-248.303749003614",
+            "Host": "Floor : Dachaufbau Brüstung Dämmung",
+            "Offset from Host": "91.6962509963809",
+            "Area": "0.337537341581677",
+            "Volume": "0.00103690561487754",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Generic Models",
+            "Family": "Contec_NotueberlaufEckig: Contec_NotueberlaufEckig",
+            "Family and Type": "Contec_NotueberlaufEckig: Contec_NotueberlaufEckig",
+            "Type": "Contec_NotueberlaufEckig: Contec_NotueberlaufEckig",
+            "Type Id": "Contec_NotueberlaufEckig: Contec_NotueberlaufEckig",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Constraints(Type).Default Elevation": "0.0",
+            "Dimensions(Type).Breite_Platte": "300.0",
+            "Dimensions(Type).Höhe_Platte": "250.0",
+            "Identity Data(Type).Edited by": "",
+            "Identity Data(Type).Assembly Code": "",
+            "Identity Data(Type).Assembly Description": "",
+            "Identity Data(Type).Code Name": "",
+            "Identity Data(Type).OmniClass Number": "",
+            "Identity Data(Type).OmniClass Title": "",
+            "Identity Data(Type).Type Name": "Contec_NotueberlaufEckig",
+            "Identity Data(Type).Workset": "Family  : Generic Models : Contec_NotueberlaufEckig",
+            "Other(Type).Category": "Generic Models",
+            "Other(Type).Family Name": "Contec_NotueberlaufEckig"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

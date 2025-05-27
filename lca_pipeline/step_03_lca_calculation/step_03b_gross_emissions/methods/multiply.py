@@ -31,7 +31,9 @@ ENV_KEYS_OEKOBAUDAT = [
 
 def determine_multiplier(material, volume, area):
     ref = material.get("Reference", "").lower()
-    if ref == "kg":
+    if ref == "m":
+        return None  # Skip linear meter-based materials
+    elif ref == "kg":
         return float(material.get("Density (kg/m3)", 1)) * float(volume)
     elif ref == "qm":
         return float(area)
@@ -40,10 +42,14 @@ def determine_multiplier(material, volume, area):
     elif ref == "pcs":
         return 1
     else:
-        return 1 
+        return 1
+
 
 def process_material(material, volume, area, keys):
     multiplier = determine_multiplier(material, volume, area)
+    if multiplier is None:
+        return None  # Mark material to be skipped
+
     for key in keys:
         if key in material:
             try:
@@ -52,6 +58,7 @@ def process_material(material, volume, area, keys):
             except ValueError:
                 pass
     return material
+
 
 
 
@@ -77,7 +84,11 @@ def process_file(input_path, output_path, quantity_lookup):
         return
 
     materials = data.pop(key, [])
-    processed = [process_material(m, volume, area, emission_keys) for m in materials]
+    processed = [
+        m for m in (process_material(mat, volume, area, emission_keys) for mat in materials)
+        if m is not None
+    ]
+
 
     # Build new ordered dictionary to control output key order
     new_data = OrderedDict()

@@ -1,0 +1,171 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Holzfassade hinterlüftet:1434003",
+        "UID": "34796",
+        "GlobalId": "0XxTIRndPDswCFuTTPaY5B",
+        "Type": "IfcWall",
+        "ObjectType": "Basic Wall:Holzfassade hinterlüftet",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSet",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Holzschalung Vertikal, Nadelholz,  schwarz gestrichen",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.02,
+                    "Thickness unit": "METRE"
+                },
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Luft",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.03,
+                    "Thickness unit": "METRE"
+                },
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Luft",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.04,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "Brep",
+            "Curve2D"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 1.7683868902593,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 40.985646449600004,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 6.21,
+            "Y": 0.09,
+            "Z": 3.22,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 1.7997,
+        "Real Volume to Bounding Box Volume Ratio": 0.983,
+        "Face Count (tessellated element)": {
+            "Face Count": 20
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 32
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 46
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Constraint": "Level: 00_Betonplatte",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Location Line": "Core Face: Exterior",
+            "Top Constraint": "Level: 01_Galerie",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Base Offset": "100.0",
+            "Top Offset": "-100.0",
+            "Unconnected Height": "3259.99999999991",
+            "Area": "19.6612968758062",
+            "Length": "6196.11417626377",
+            "Volume": "1.76838689025927",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: Holzfassade hinterlüftet",
+            "Family and Type": "Basic Wall: Holzfassade hinterlüftet",
+            "Type": "Basic Wall: Holzfassade hinterlüftet",
+            "Type Id": "Basic Wall: Holzfassade hinterlüftet",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "0.357142857142857",
+            "Analytical Properties.Thermal Mass": "0.00783116885376",
+            "Analytical Properties.Thermal Resistance (R)": "2.8",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Construction.Width": "90.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "12632256",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Fire Rating": "",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "Holzfassade hinterlüftet",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Betonplatte",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Betonplatte",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

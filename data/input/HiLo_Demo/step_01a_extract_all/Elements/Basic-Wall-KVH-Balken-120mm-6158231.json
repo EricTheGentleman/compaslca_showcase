@@ -1,0 +1,173 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:KVH Balken 120mm:6158231",
+        "UID": "632022",
+        "GlobalId": "3nlkwm3Tz5su3_fDVkWGtn",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:KVH Balken 120mm",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:KVH Balken 120mm",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Brettschichtholz C24",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.12,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, growing in the opposite direction from its reference surface."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.12,
+            "Width unit": "METRE",
+            "Length": 0.649,
+            "Length unit": "METRE",
+            "Height": 0.215,
+            "Height unit": "METRE",
+            "Gross Side Area": 0.1395,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 0.1395,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.0779,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.0167,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0167,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Curve2D",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.016744199995,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.4864299999,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.12,
+            "Y": 0.65,
+            "Z": 0.22,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0172,
+        "Real Volume to Bounding Box Volume Ratio": 0.973,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "N"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Location Line": "Finish Face: Exterior",
+            "Top Constraint": "Level: 00_Eingang",
+            "Base Constraint": "Level: 01_Galerie",
+            "Base Offset": "-275.0",
+            "Top Offset": "2860.0",
+            "Unconnected Height": "215.000000000091",
+            "Area": "0.139534999958101",
+            "Length": "708.999999804843",
+            "Volume": "0.016744199994972",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: KVH Balken 120mm",
+            "Family and Type": "Basic Wall: KVH Balken 120mm",
+            "Type": "Basic Wall: KVH Balken 120mm",
+            "Type Id": "Basic Wall: KVH Balken 120mm",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Construction.Width": "120.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "KVH Balken 120mm",
+            "Materials and Finishes.Structural Material": "Brettschichtholz C24",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

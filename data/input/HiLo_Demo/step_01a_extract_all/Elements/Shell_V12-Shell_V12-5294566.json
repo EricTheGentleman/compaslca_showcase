@@ -1,0 +1,103 @@
+{
+    "Element Metadata": {
+        "Name": "Shell_V12:Shell_V12:5294566",
+        "UID": "433438",
+        "GlobalId": "1YKyzAV3HA3hGaVYlxUqa8",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "Shell_V12:Shell_V12",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Concrete, Lightweight",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ]
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Moves With Nearby Elements": "False",
+            "Elevation from Level": "0.0",
+            "Offset from Host": "0.0",
+            "Host": "Level : 00_Eingang",
+            "Area": "281.896533875937",
+            "Volume": "11.5046873820842",
+            "Edited by": "",
+            "Workset": "Dachkonstruktion",
+            "Category": "Generic Models",
+            "Family": "Shell_V12: Shell_V12",
+            "Family and Type": "Shell_V12: Shell_V12",
+            "Type": "Shell_V12: Shell_V12",
+            "Type Id": "Shell_V12: Shell_V12",
+            "Phase Created": "Gebaut"
+        },
+        "Psets Object Type": {
+            "Constraints.Default Elevation": "0.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Type Name": "Shell_V12",
+            "Identity Data.Workset": "Family  : Generic Models : Shell_V12",
+            "Other.Category": "Generic Models",
+            "Other.Family Name": "Shell_V12"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

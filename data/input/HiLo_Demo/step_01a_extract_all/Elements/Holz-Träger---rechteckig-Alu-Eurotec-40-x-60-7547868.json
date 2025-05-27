@@ -1,0 +1,159 @@
+{
+    "Element Metadata": {
+        "Name": "Holz Träger - rechteckig:Alu Eurotec 40 x 60:7547868",
+        "UID": "1097090",
+        "GlobalId": "0VdHPsho55ABxgn0nxYcNJ",
+        "Type": "IfcBeam",
+        "ObjectType": "Holz Träger - rechteckig:Alu Eurotec 40 x 60",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Aluminum - Flat - Version 1.1",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Length": 7.755,
+            "Length unit": "METRE",
+            "Net Volume": 0.0186,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Curve2D",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.018612,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 1.5558,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 7.76,
+            "Y": 0.06,
+            "Z": 0.04,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0186,
+        "Real Volume to Bounding Box Volume Ratio": 1.001,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Cross-Section Rotation": "0.0",
+            "Reference Level": "Level: 00_Eingang",
+            "Reference Level Elevation": "0.0",
+            "End Level Offset": "-40.9999999999983",
+            "Start Level Offset": "-40.9999999999983",
+            "Elevation at Bottom": "-81.0",
+            "Elevation at Top": "-41.0",
+            "Length": "7755.0",
+            "Volume": "0.018612",
+            "Start Extension": "0.0",
+            "y Justification": "Origin",
+            "y Offset Value": "0.0",
+            "yz Justification": "Uniform",
+            "z Justification": "Top",
+            "z Offset Value": "0.0",
+            "End Extension": "0.0",
+            "Join Status": "Both joins enabled",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Comments": "",
+            "Category": "Structural Framing",
+            "Family": "Holz Träger - rechteckig: Alu Eurotec 40 x 60",
+            "Family and Type": "Holz Träger - rechteckig: Alu Eurotec 40 x 60",
+            "Type": "Holz Träger - rechteckig: Alu Eurotec 40 x 60",
+            "Type Id": "Holz Träger - rechteckig: Alu Eurotec 40 x 60",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Stick Symbol Location": "Center of Geometry",
+            "Structural Usage": "Other",
+            "Cut Length": "7755.0"
+        },
+        "Psets Object Type": {
+            "Dimensions.B": "60.0",
+            "Dimensions.H": "40.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Type Comments": "",
+            "Identity Data.Workset": "Family  : Structural Framing : Holz Träger - rechteckig",
+            "Identity Data.Type Name": "Alu Eurotec 40 x 60",
+            "Materials and Finishes.Structural Material": "Aluminum - Flat - Version 1.1",
+            "Other.Category": "Structural Framing",
+            "Other.Family Name": "Holz Träger - rechteckig",
+            "Structural.Filter Tragend / Nichttragend": "False",
+            "Structural.Section Shape": "31",
+            "Structural Analysis.Moment of Inertia strong axis": "3.2e-07",
+            "Structural Analysis.Moment of Inertia weak axis": "7.2e-07",
+            "Structural Analysis.Perimeter": "200.0",
+            "Structural Analysis.Section Area": "0.0024",
+            "Structural Section Geometry.Height": "40.0",
+            "Structural Section Geometry.Width": "60.0"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

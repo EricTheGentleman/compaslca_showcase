@@ -1,0 +1,133 @@
+{
+    "Element Metadata": {
+        "Name": "Einlauf Contec Tube:DN110:6763225",
+        "UID": "1074676",
+        "GlobalId": "2CLn4ZUSr8B8TuzLO7ROP3",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "Einlauf Contec Tube:DN110",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "3D-Schnittmaterial",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0003908899137,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.30037883880000005,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.24,
+            "Y": 0.24,
+            "Z": 0.3,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0173,
+        "Real Volume to Bounding Box Volume Ratio": 0.023,
+        "Face Count (tessellated element)": {
+            "Face Count": 540
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 1316
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 1468
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Moves With Nearby Elements": "False",
+            "Level": "Level: 01_Brüstung",
+            "Elevation from Level": "-310.500000000003",
+            "Host": "Level : 01_Brüstung",
+            "Offset from Host": "-310.500000000003",
+            "Area": "0.235136619842583",
+            "Länge Rohr": "-300.0",
+            "Volume": "0.000394111323387026",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Generic Models",
+            "Family": "Einlauf Contec Tube: DN110",
+            "Family and Type": "Einlauf Contec Tube: DN110",
+            "Type": "Einlauf Contec Tube: DN110",
+            "Type Id": "Einlauf Contec Tube: DN110",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Constraints.Default Elevation": "0.0",
+            "Data.Unternehmer": "Kaufmann",
+            "Dimensions.Durchmesser Bohrung": "130.0",
+            "Dimensions.Durchmesser Innen": "104.0",
+            "Dimensions.Nenndurchmesser": "110.0",
+            "Dimensions.Radius": "55.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Workset": "Family  : Generic Models : Einlauf Contec Tube",
+            "Identity Data.Type Name": "DN110",
+            "Other.Category": "Generic Models",
+            "Other.Family Name": "Einlauf Contec Tube"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

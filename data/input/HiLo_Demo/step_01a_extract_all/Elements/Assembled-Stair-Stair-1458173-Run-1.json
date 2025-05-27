@@ -1,0 +1,138 @@
+{
+    "Element Metadata": {
+        "Name": "Assembled Stair:Stair:1458173 Run 1",
+        "UID": "36280",
+        "GlobalId": "0AUqYOipD7ohrIsOnF3NTs",
+        "Type": "IfcStairFlight",
+        "ObjectType": "Non-Monolithic Run:Stahlstufen gefaltet",
+        "Classification": "Not defined",
+        "Decomposes": {
+            "Name": "Assembled Stair:Stair:1458173",
+            "IfcEntity": "IfcStair",
+            "GlobalId": "0AUqYOipD7ohrIsOnF3GW9"
+        },
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Stahl",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Length": 3.915,
+            "Length unit": "METRE",
+            "Gross Volume": 0.0026,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0656,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "GeometricSet",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0656256,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 13.85704,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 4.89,
+            "Y": 0.96,
+            "Z": 0.16,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.7511,
+        "Real Volume to Bounding Box Volume Ratio": 0.087,
+        "Face Count (tessellated element)": {
+            "Face Count": 372
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 744
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 930
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Location Line": "Run: Center",
+            "Relative Base Height": "0.0",
+            "Relative Top Height": "2930.99999999991",
+            "Run Height": "2930.99999999991",
+            "Begin with Riser": "True",
+            "End with Riser": "True",
+            "Extend Below Riser Base": "0.0",
+            "Actual Number of Risers": "16",
+            "Actual Number of Treads": "15",
+            "Actual Riser Height": "183.187499999994",
+            "Actual Run Width": "960.0",
+            "Actual Tread Depth": "261.0",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Runs",
+            "Family": "Non-Monolithic Run: Stahlstufen gefaltet",
+            "Family and Type": "Non-Monolithic Run: Stahlstufen gefaltet",
+            "Type": "Non-Monolithic Run: Stahlstufen gefaltet",
+            "Type Id": "Non-Monolithic Run: Stahlstufen gefaltet",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Stair Types",
+            "Identity Data.Type Name": "Stahlstufen gefaltet",
+            "Materials and Finishes.Riser Material": "Stahl",
+            "Materials and Finishes.Tread Material": "Stahl",
+            "Other.Category": "Runs",
+            "Other.Family Name": "Non-Monolithic Run",
+            "Risers.Riser": "True",
+            "Risers.Riser Thickness": "10.0",
+            "Risers.Riser To Tread Connection": "Extend Tread Under Riser",
+            "Risers.Slanted": "False",
+            "Treads.Apply Nosing Profile": "Front Only",
+            "Treads.Nosing Length": "0.0",
+            "Treads.Tread": "True",
+            "Treads.Tread Thickness": "10.0"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "Unknown",
+                "type": "Unknown"
+            }
+        ]
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "Element Metadata": {
+        "Name": "Abzug Sprinkler:Abzug Sprinkler:5700206",
+        "UID": "553600",
+        "GlobalId": "3CfkjHPHr7huZjPEhmDFd6",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "Abzug Sprinkler:Abzug Sprinkler",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Körpermodell",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.00036784838679999995,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.033354861799999996,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.05,
+            "Y": 0.05,
+            "Z": 0.19,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0005,
+        "Real Volume to Bounding Box Volume Ratio": 0.736,
+        "Face Count (tessellated element)": {
+            "Face Count": 1984
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 1990
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 3971
+        },
+        "Primary Object Axis (Cardinal Direction)": "S"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Moves With Nearby Elements": "False",
+            "Elevation from Level": "0.0",
+            "Area": "0.00196323288319933",
+            "Gross Surface Area": "0.033354336706444",
+            "Gross Volume": "0.000367834695695459",
+            "Volume": "0.000367834695695459",
+            "Edited by": "",
+            "Workset": "Voids",
+            "Category": "Mass",
+            "Family": "Abzug Sprinkler: Abzug Sprinkler",
+            "Family and Type": "Abzug Sprinkler: Abzug Sprinkler",
+            "Type": "Abzug Sprinkler: Abzug Sprinkler",
+            "Type Id": "Abzug Sprinkler: Abzug Sprinkler",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Workset": "Voids",
+            "Identity Data.Type Name": "Abzug Sprinkler",
+            "Other.Category": "Mass",
+            "Other.Family Name": "Abzug Sprinkler"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

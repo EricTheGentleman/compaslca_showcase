@@ -1,0 +1,208 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Innenwandelement Archisonic fix:1400196",
+        "UID": "34193",
+        "GlobalId": "3RJOvU5RD3K8e14NumidNG",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:Innenwandelement Archisonic fix",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:Innenwandelement Archisonic fix",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Archisonic Charcoal",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.012,
+                    "Thickness unit": "METRE"
+                },
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "MDF",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.012,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, growing in the opposite direction from its reference surface."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.024,
+            "Width unit": "METRE",
+            "Length": 0.1964,
+            "Length unit": "METRE",
+            "Height": 2.199,
+            "Height unit": "METRE",
+            "Gross Side Area": 0.432,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 0.4286,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.0047,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.0104,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0103,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Curve2D",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.010287553659,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.9771780296,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.2,
+            "Y": 2.2,
+            "Z": 0.02,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0088,
+        "Real Volume to Bounding Box Volume Ratio": 1.169,
+        "Face Count (tessellated element)": {
+            "Face Count": 2284
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 2294
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 4573
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Location Line": "Core Face: Exterior",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Base Constraint": "Level: 00_Eingang",
+            "Top Constraint": "Level: 01_UK Decke",
+            "Base Offset": "6.0",
+            "Top Offset": "-95.000000000097",
+            "Unconnected Height": "2198.9999999999",
+            "Area": "0.428648612511666",
+            "Length": "196.437642730633",
+            "Volume": "0.010287552744758",
+            "Edited by": "",
+            "Workset": "Innenausbau",
+            "Category": "Walls",
+            "Family": "Basic Wall: Innenwandelement Archisonic fix",
+            "Family and Type": "Basic Wall: Innenwandelement Archisonic fix",
+            "Type": "Basic Wall: Innenwandelement Archisonic fix",
+            "Type Id": "Basic Wall: Innenwandelement Archisonic fix",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Construction.Width": "24.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Description": "TYP C2",
+            "Identity Data.Type Name": "Innenwandelement Archisonic fix",
+            "Materials and Finishes.Structural Material": "MDF",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": [
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2xvVPd0LzDohLLAuF5KnOA",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2xvVPd0LzDohLLAuF5KnV5",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2xvVPd0LzDohLLAuF5KnJY",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2xvVPd0LzDohLLAuF5KnIY",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2bRo6TyoX8GxLx8eFRGlOm",
+                "OpeningType": "Not defined"
+            }
+        ],
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

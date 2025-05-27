@@ -1,0 +1,186 @@
+{
+    "Element Metadata": {
+        "Name": "Curtain Wall:Fassade 90 EI30:2668667",
+        "UID": "82505",
+        "GlobalId": "1a1$QVmKz8nRXZVkIMOOrg",
+        "Type": "IfcCurtainWall",
+        "ObjectType": "Curtain Wall:Fassade 90 EI30",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": [
+            {
+                "Name": "Systemelement:Dämmelement:2668668",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "1a1$QVmKz8nRXZVkIMOOrj"
+            },
+            {
+                "Name": "Systemelement:Dämmelement:4827976",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "0ygEU9Hxz488eSKHC_S61G"
+            },
+            {
+                "Name": "Systemelement:Contraflam EI30:2668691",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "1a1$QVmKz8nRXZVkIMOOs2"
+            },
+            {
+                "Name": "Systemelement:Contraflam EI30:4827978",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "0ygEU9Hxz488eSKHC_S61I"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:2668669",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "1a1$QVmKz8nRXZVkIMOOri"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90 - Nur Pfosten:2668692",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "1a1$QVmKz8nRXZVkIMOOs5"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:2670381",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "2Iy4ddKST3VxQgqLMkD6kT"
+            },
+            {
+                "Name": "Pfosten rechteckig:ForsterUnico:3971796",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "2Zo2uNrkP68PIXEccqXjMr"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:4827995",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "0ygEU9Hxz488eSKHC_S613"
+            },
+            {
+                "Name": "Pfosten rechteckig:ForsterUnico:4828021",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "0ygEU9Hxz488eSKHC_S61j"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:4836544",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "3FSUdCYMP6oPsahVssyWfZ"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90 - Nur Pfosten:4836545",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "3FSUdCYMP6oPsahVssyWfY"
+            }
+        ]
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": "Not defined",
+        "Quantities (COMPAS)": {},
+        "Bounding Box Dimensions (OBB - local frame)": {},
+        "Bounding Box Volume": null,
+        "Real Volume to Bounding Box Volume Ratio": null,
+        "Face Count (tessellated element)": {},
+        "Vertex Count (tessellated element)": {},
+        "Edge Count (tessellated element)": {},
+        "Primary Object Axis (Cardinal Direction)": "Not defined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Top is Attached": "False",
+            "Top Offset": "0.0",
+            "Base Constraint": "Level: 01_Brüstung",
+            "Top Constraint": "Level: 02_Dachfirst",
+            "Base Offset": "-60.0",
+            "Unconnected Height": "2110.00000000009",
+            "Area": "3.29338843345619",
+            "Length": "1811.74447739795",
+            "Offset": "-107.780069276363",
+            "Angle": "0.0",
+            "Justification": "Beginning",
+            "Number": "1",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Curtain Wall: Fassade 90 EI30",
+            "Family and Type": "Curtain Wall: Fassade 90 EI30",
+            "Type": "Curtain Wall: Fassade 90 EI30",
+            "Type Id": "Curtain Wall: Fassade 90 EI30",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "True",
+            "Structural Usage": "Bearing"
+        },
+        "Psets Object Type": {
+            "Construction.Function": "Exterior",
+            "Construction.Automatically Embed": "False",
+            "Construction.Curtain Panel": "Systemelement: Contraflam EI30",
+            "Construction.Join Condition": "Not Defined",
+            "Data.Unternehmer": "Pletscher",
+            "Horizontal Grid.Adjust for Mullion Size": "True",
+            "Horizontal Grid.Layout": "None",
+            "Horizontal Grid.Spacing": "10000.0",
+            "Horizontal Mullions.Border 1 Type": "Pfosten rechteckig: Forster 60 x 90",
+            "Horizontal Mullions.Interior Type": "Pfosten rechteckig: Forster 60 x 90",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Fire Rating": "EI60",
+            "Identity Data.Type Name": "Fassade 90 EI30",
+            "Identity Data.Workset": "Curtain Wall Types",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Curtain Wall",
+            "Vertical Grid.Adjust for Mullion Size": "True",
+            "Vertical Grid.Layout": "None",
+            "Vertical Grid.Spacing": "1300.0",
+            "Vertical Mullions.Border 1 Type": "Pfosten rechteckig: Forster 60 x 90",
+            "Vertical Mullions.Border 2 Type": "Pfosten rechteckig: Forster 60 x 90",
+            "Vertical Mullions.Interior Type": "Pfosten rechteckig: Forster 60 x 90"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

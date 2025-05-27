@@ -1,0 +1,1454 @@
+{
+    "Element Metadata": {
+        "Name": "2021-Hilo_ASF_Construction v9_003:2021-Hilo_ASF_Construction v9_003:6549949",
+        "UID": "1059325",
+        "GlobalId": "2yJbbEqSPDc8j9KFU1qo7s",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "2021-Hilo_ASF_Construction v9_003:2021-Hilo_ASF_Construction v9_003",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "<Unnamed>",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ]
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Moves With Nearby Elements": "False",
+            "Elevation from Level": "-240.000000012729",
+            "Host": "Level : 00_Eingang",
+            "Offset from Host": "-240.000000012729",
+            "Area": "9.25600685472987",
+            "Volume": "0.056089833384317",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Generic Models",
+            "Family": "2021-Hilo_ASF_Construction v9_003: 2021-Hilo_ASF_Construction v9_003",
+            "Family and Type": "2021-Hilo_ASF_Construction v9_003: 2021-Hilo_ASF_Construction v9_003",
+            "Type": "2021-Hilo_ASF_Construction v9_003: 2021-Hilo_ASF_Construction v9_003",
+            "Type Id": "2021-Hilo_ASF_Construction v9_003: 2021-Hilo_ASF_Construction v9_003",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Constraints.Default Elevation": "0.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Type Name": "2021-Hilo_ASF_Construction v9_003",
+            "Identity Data.Workset": "Family  : Generic Models : 2021-Hilo_ASF_Construction v9_003",
+            "Other.Category": "Generic Models",
+            "Other.Family Name": "2021-Hilo_ASF_Construction v9_003"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": [
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "28w2P_$Iz5FvkxXpZLjdgY",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3YrUi5pn1DN8AUBX8m0Pur",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0K3f1Va0XEAPPvGpctMjeM",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "110zq3Wdv36BD0TerwQt4J",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1mdlscdjj37e3uNx6$UGID",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2pBVJ0_Jb1eQrNm9foA0XC",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0uk9pviBXFYxGNFds4QcRN",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3a4YpSxrPASvzYcWK8trWB",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "08fXgqQlL4UAn4R$cZ4ke1",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2av3VSwyH3_wgs9peBH_Ff",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2vkj1ybJr1D94Kiao9cQkN",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "13uaYOURj6FveWsAIBbZbm",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "28CEbbeN18Vv3OsKZVbZWW",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1qvXHKHVD8agOr$dGr6RNa",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3mKQJXrDrAD81at3DNg$Bd",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "37pV8CjiDDshv0UUzsGkie",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1jGNsQ9GP1iu1OOWXfRcnI",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2Mn2jjObf1PQvU6lBbz4Q3",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0gYNk$yTrFIhlKBFub0Ex8",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0cFpXCbPb8RueKEQoxkjUE",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2It99RYlX1yB6hcTc7GUKN",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1xQ8oRO255_gxGPGM0r7Wu",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3hTR1vlr5APhA9PMbvy299",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3aFUAumiT8VfEdMx0D63HF",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2innfKCe91IRS2OIdtqLu1",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0ivmamChTA1eQuhLA$lB4u",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0_dnqsjuP6uOp3F2k7MpR4",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3m2lBwMkTCbf3EsvrlxT_V",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2U1zZim9r11eStnIHz5ZqG",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3s1Wg5vl90khFbSJskQQ$J",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3JY7hYMgL5wPIV6HRaU2Ot",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "08RCxa5MX7Z9APFxp0$iFV",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3XWfUMNn95cAUDJBRkMS_w",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3rpJgoHpD1FgzFA2KoYGtY",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1lGsEacfDEwPheh4qu_NP8",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3e3vY_2kHBfx_pjK2XV0mk",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1F8PPmgW93ZvdaMn4_xioH",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0CZLravif4cOoUhrHZuQj_",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0Awl$uzcv5VhoagAXyIg_0",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1lne0ayDzDQuUyjFegZTWE",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3X_JRJRMz1Mx2IbBPO1xYT",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3EUixwlBrA$8QfxdCkWFY9",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1brx3cHAPF9fqqapDnYrxR",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1sj0czo7X9$vLV5inInhiH",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3cgkmp5j515eWLY53gJbPH",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2aTNI8qYvBdgT9aEjvMNjZ",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2$0BkOXnrFDxpWeqsBWVo9",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1bwCAdUPf29etOj00UTD8H",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "35Bk3ihgHAT8DWyJ2fxgMY",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2qHFG1c8L4Eh7_fHOAsD_X",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1qOuYKuH55DxzP5C9hmy_T",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3BD1MJF7T8nQrkd9Axkw3h",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1HOI1xiSrEDhFT22QP2QGY",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2F18CkzwT54RRgZ8efKge3",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2YRlTdqPbD$BJa3Zbm3gwp",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0WpBd7bkj9s98vF0dmYfrk",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1rYfctwNHEuwYp4J4WmV5P",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3_Y6ardjDEdwxSdYA6J$PA",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0sn$TWg1DBNBTxhdqCRLvf",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3Ae6VvFDH82hsA0Y6uK2PR",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2i$yppXfD9lQopgwS3F3ZQ",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "05hxwgHD11j8pwgSLAd5BO",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3RY9MZ4lDDbuFxVDf9_yr4",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0sjI7wPh99HR0UJCwHR0ty",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "03eBWGexzEreNfTVkMEOTE",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3gO$MI0bPCcvS$35FWl0Q0",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0SFUSiUUf6zRiuPCK$4iLB",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "30wP87RX1FXugdzg$q6J4R",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3i9Rb9Cf91guRHHsF3O7fg",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2MtTB$gA92pvYAZrncJsKj",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2I91mk8kL6Me8nn$CBwzlm",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "15EdpLthHF5BuDnjgmjzlR",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1idzahjXTAd8umrKXy07Bt",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0B_$ArqOL7Jxx$trlu3yMp",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0ATujyZPXAKhHRPL0N_U$Z",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3bR_MkkG1FoABm4Yfuk5cS",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0sjOFP9p96lPhYX9HTGdPG",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0qc9C1uVL55uIWvfjYtUYI",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0k7mCRK5rAXvtN5JWmVMZK",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3cqD9wi9vAQf8LQ_mtoHeo",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3CYCLdKwv7CR7WD87qatGz",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "10RI41bvrA$OAdwGbS0T3k",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3igTfzjGb5aBKpvStTdxRp",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3qkmWh4H15DRr2y8cZncD4",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3b8yfnQWP2qhvmW6OFMiwp",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0s0$CFmz995Os81y95oQ59",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2GheielUbAAwkLtQQjUyYG",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0y$fr9LE9D$AZg0eX4E2Cc",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1u6qW3Hkz22eAeJyoi2m9P",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1ylPWBVbL6A8sj2YdAYj2k",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2Z3rKWFNzA2R9Q5XBWtDts",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "01677o_zr8NAcvqwJWD2__",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3ptpPNanTA7v76CLqXDstL",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2A_pzQFhr6Bx3WVq$m3OrF",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3k$$TNVdTFYhrY9DZTrlCT",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3ph2MSK3n8NQwgf3Zg8XCS",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "00suPKjL9ATxrO5Czc_ds8",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0Mr_g9We58uBqO08bwJ524",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3rx8kqr_19_x_Wvt$pVmqB",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2YsHpBeWPCehGrdlmyDkM3",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3Re3BaeePA_PH0N0kV0w65",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1MGiHFocr9ufU8m47nPt_I",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2qRhkMd1LF6BDLGYbBeYkq",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2c_f_EeFn3L9skQjE5_HGO",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "24dFcy7NXCuPwXIgi6wEb8",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3yr7ZrER96SO22xVLkGjNT",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3PIlp_bLP5tOoPyTw5128i",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0y2fhp4eL4hfOe6rbL1Ezp",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "02PU0SmT91TQimx0FblZAK",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2ykZoeM8vCUxFpFw7ke6Bd",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0kwA_BhXLE9Qn3aHh82b54",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1xq8snbyX2QQ5$6EqkkDcb",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2h85jBDeL60v_b1I9erasz",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3igDWGFZP6VPaN2V9UiLKN",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "09_mpJzJz0fQ1hzbohkd8Z",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1RKq5MGbj748AgDmUyra2i",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3YdzryG4L44ho3Seg7_idg",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2Wx7GJqqjBQQN6ylDhw5q0",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0REI8JReX0reQiB4TpY$Cx",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0qvLMat3b2zuEop9z0ju1r",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2DhScR5n1CCA8cGGl2eJmW",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0vYHjWkrn9IR6zYOYy$HQm",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3G5YIoBVb7Y84k1NGvI98a",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0WIokGVUj0jvIbkmwHb75b",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3$s0zCeCLF_8bHLBiZ4xk$",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "084$pSZ8jDzfYxyRLTvXfu",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2XXa$$m2r3aR2PkDel3S82",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "10E7Shs_TDVwcWrF7yGW9x",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3A1ivzXKn7dQxv20pGvhYw",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0jgC9BmwL2V8Iph2Mp35n7",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3rlGeKolr0su5P51L2qEwj",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1F_ozy$AP0BPo$DsheuxTX",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2AtR5Rkn9DS8MNJkikcl68",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "00O7_1Pyn1Q9PvXRrlnQJC",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1uSMLG4Tf0V8BSKHixj5DR",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1WRLT5DWD2d9db8pgUItUF",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1_KST7KdD36hjhPUUErNUj",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1yWN9I5Zf7BwNUYbmrvI0I",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2whLXwUun8HuaoGgdS21Up",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2VVRjkCXDF0wFWvdDGKg2K",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3U4TrobUn6ePeGaDfjAVWA",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3yEmqZC19DaPNtmhk3kJaO",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "11KLKYJGHBrBrMyFfCkLD7",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2fD8h1XXvFRw4JRv_POO5f",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3PKcZJ$Zb94h7qFrBJOX3E",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "04L7Z8$hDE$hh6IuBjgAW9",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0UuBNMSKrExfHXIPIF5B5g",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1iExyoA598kwIA13CH_wN2",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1V7qYQ3ML3$Pm8w$7VrZ$9",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2hLWEIPLD7igpzAUtSbwV8",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1oUll7AVX2pAeH1yjdX8Tu",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0qWZp54pT7YRKznLYHcron",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3xh$$nE9H0E9YH12PzNFRR",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1Uk7AAwF9BEgypHBubgNTd",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3fUhv1idT4FP9sI48wGVdD",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2B9mFz$M90xe7k_9nNpoZC",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1H34C9CmP7OxuSCmXEtUcU",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3wi4m4c0T4ff5HzI0FKdIU",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2ALaKWZlT84uSEDL0LPeVP",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0EUS5ojSnEUeJqL8kyJLFZ",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3sQDnGLvb0Dfc7LDD4JSLU",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "17fg9DUM90sgnhnU23_bgs",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "201aMPQnH54Rg8Z3b2laIn",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0rYc54krj3Vh$cSAv7tBZ6",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0dXCKbMRH7ZgkKX98pzTMh",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1ahGjGb1HDqekch1NDgi15",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "37gr1mFKr39x0Gsyz5BqtA",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3wVZmaseX60xMV0yShVXYm",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1AJEH8m_zDMRjn6EwI4ees",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3iBeXnX_14vx1s0Nd6hpvi",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "01yGjmn$T6jv$iWhxF8gwh",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "00AXLxLdb0oQFyzZYnClXX",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3UzVaRtaf9VwDV4kDQlrLj",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3Xhfr4nMfFA8tYTh3YZp4Y",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0gmaXCGQHAzBrXxFVl3s24",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "01qDN2eUv7MQwx80oOcDcG",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1Nd5q7$9z9S8yfHcsPMeuz",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1xUPdJ4uz7CgTt40e3CSp4",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0ngxWZN_j7nfQUJXlxtpzz",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3AgRrwuor3pu8CBb6a7i6r",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3EuGTIRib4b8r_U7W$nFaR",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2_aah74gn8d9buAk7PPxBV",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "22sYR2UQ93TuWmq53d_cPW",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2_Nx4ikmj7GvwtAaOU4YoV",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "38XEeRhb1Cohg74Zl6Nhy9",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2IyZaRUYz5UPrugID5LZva",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3zpITCj6L7xRae4wwoA4vf",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "09z3Eu4Y58pgW8JIsGvxrc",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1wt9il1sH7qvRV8VVbBGBM",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0mcMJaqGrDN9kkIZoKR4OB",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "133kLDm256kBt_Yk7zO1Tj",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1MESDSs0L2jxZO7n2wPUGP",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3h$1NirgDDhPwgdgD2ioX7",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0G3LL_lrb9eg7T25QIej7n",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0H87QWsmPFJRde$KnsUeVW",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0Yg0Joqzz8Iv67Ae6SKv4k",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2JcgwJR$n0YfqCC8QfCVxS",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "05gck_5Uj04xc8NgkC1ERP",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1hFPTZRNv3q8TWJ3K0TZcZ",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0HUjGnd797$xXoWeyeveNN",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2LgLACkTn7zhEzjU3wZyCC",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1NKG7FL214eRKSuOKVr$ST",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2s4LOvWf9EeBHAHXn81s93",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0Uhx51tozBPOWNi3QYH7r0",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3Io7HGhGzDJ8Ue2KNW1YCJ",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1Kt788XP11JReg9ul7F72G",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3zg5Wd20fAk8nruIJLO3av",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2c3Er2bfr7kPVPZWtQXYYa",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1P1cEsicv3u8r_bEAQVWnB",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2gQvuOmr1FUPNYKS$b8Vl3",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2zPe0GX4988xbWdAn7GMkA",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3Ka4z26onBnAGQIpJ8_Csl",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2gnb3OeofDtwNJU780jtH6",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0SlSfWqNfDcwrhO0pdFnaI",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3LGAdgtMjAlQ5EJ77XJN9$",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3YyiidcEb3MB$g3JjY4B7U",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0nNrE43TL1CPJamXJosC3c",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2aLK1VFN52cg$XrI3MHNhX",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3N93Tm5LrFHg3J5JDHiqUq",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0oYj_bW9bDtQYpvbuDVBLc",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1aSS4zLsX1AxVHWRA2l2BX",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2YlGWzYMz7ledrm1TdHT_I",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3mfuPvofL7lRC3Ai0Be7kR",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3W3InZUXvEHRcJ$QBb9V1B",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0q$zSL$w99gA1DFMHNFVu$",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3dIFxOqML4B904SLoRHmgY",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1utsxszyb0vAD11i9sKpxQ",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2lstUaA7TAFOrMM5lrmATb",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "34HECnTGr01QncQ$s4HULf",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1IpHuUY1nDqw5kodtxvLt2",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "29C0KWl79EBu1LvcvcUdLY",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3puuD3Ll91lAr8sJBfsAp2",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3l9SVRGj10OfKgmrOdflHy",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3eX1tPccbF1PgMta$YQ8CK",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0sv7x7IU9ArBC1sPotck1I",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "34iXgpZab3swfyzcrrvYdT",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0xi9YpLDT5IBNOJM9VEq65",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1VNPb3RAr1redaRw$cO6KF",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2mNw2Maj1AswB63Yq7YAGO",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2oBwB8wIzCTRklWL67kS3P",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2B_rFVtGrFuvB_Qki$4bCr",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0DJL85GMr75QR50CF7Cz03",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2qpwpOssH4kPlOKn0uWDOu",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0oU79uddbEA9nrtQP4VcOU",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2KHsFubB52buvzcB7x2rof",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0IT1VLqdLFAAn2UcdlH0LJ",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1Zwwz1mOb5ZPjBelqyOVOG",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0MK_LXmnvFCgbyij6d4IuZ",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1IIpAMy2r8C8XY4Ekn0qb$",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2fLkYIEWz17O$BT8O4B0ni",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1rNioN6f95d9BAaXHqX9Do",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1G8vaVAhT3qA1z588Pvjyr",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2MyG_wttH8mf0SCWQZv434",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1dZFVnegzDquz0GV9XPhk2",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "21dyzw88vEB8F8GMjrW0M8",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3PL3w$2kbBtBQSL_eRyZ4p",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2Q6w9333v6SAC69peI$akq",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3JYDbNoSbD2PDJaJsiwimo",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "08CpgZNHbEBfzVB4V8qnSG",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2kmGRykUHCPgHt0gm$yE2a",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1ebnCfVGjBQeA9vIAGQDdu",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2qiUG6jUH7sAfWqhXPXD9W",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0WSwDIEG54lvNEViwPMzda",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2GDz$eDU15fhzjFTue74kj",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "248IljlPnBL8xFueilMc0O",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3jFpMVSX51DQP4HJ1jdpl8",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "01R$Xwqhn7Lx5nqh1l_dw4",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2wD33O3lP05Rb1ihHMbTJb",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "27s41$Cub05BdKbWjJJm42",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0H2s3DsaTCUfgmgbx0Ft0H",
+                "OpeningType": "Not defined"
+            }
+        ],
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

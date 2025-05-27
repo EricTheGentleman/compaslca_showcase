@@ -1,0 +1,113 @@
+{
+    "Element Metadata": {
+        "Name": "181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm:181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm:3205382",
+        "UID": "88442",
+        "GlobalId": "0JcKt5yGn6Lx0h6cIR0YC$",
+        "Type": "IfcRoof",
+        "ObjectType": "181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm:181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "<Unnamed>",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "SurfaceModel"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.0001,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.01,
+            "Y": 0.01,
+            "Z": 0.0,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0,
+        "Real Volume to Bounding Box Volume Ratio": null,
+        "Face Count (tessellated element)": {
+            "Face Count": 2
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 4
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 5
+        },
+        "Primary Object Axis (Cardinal Direction)": "N"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Category": "Roofs",
+            "Family Name": "181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm",
+            "Edited by": "",
+            "Assembly Code": "",
+            "Assembly Description": "",
+            "Type Name": "181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm",
+            "Workset": "Architecture",
+            "Room Bounding": "True",
+            "Family": "181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm: 181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm",
+            "Family and Type": "181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm: 181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm",
+            "Type": "181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm: 181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm",
+            "Type Id": "181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm: 181012_1072_HiLoextendedshapePanelsWiresOnly_rok_MK.3dm",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {}
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "Element Metadata": {
+        "Name": "BSH Stütze - rechteckig:BSH 140 x 140:5646328",
+        "UID": "445119",
+        "GlobalId": "3WNoAUw3v8hfBwz_zVQKXI",
+        "Type": "IfcColumn",
+        "ObjectType": "BSH Stütze - rechteckig:BSH 140 x 140",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Brettsperrholz",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 0.0538,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.053802,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 1.5764,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.14,
+            "Y": 2.74,
+            "Z": 0.14,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0537,
+        "Real Volume to Bounding Box Volume Ratio": 1.002,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Base Offset": "0.0",
+            "Top is Attached": "True",
+            "Level": "Level: 00_Betonplatte",
+            "Base Level": "Level: 00_Betonplatte",
+            "Column Location Mark": "B(-115)-74(-395)",
+            "Column Style": "Vertical",
+            "Moves With Grids": "True",
+            "Top Level": "Level: 01_UK Decke",
+            "Top Offset": "-95.000000000097",
+            "Attachment Justification At Top": "Minimum Intersection",
+            "Offset From Attachment At Top": "0.0",
+            "Length": "2744.9999999999",
+            "Volume": "0.053801999999998",
+            "Edited by": "",
+            "Workset": "Tragwerk",
+            "Comments": "",
+            "Category": "Structural Columns",
+            "Family": "BSH Stütze - rechteckig: BSH 140 x 140",
+            "Family and Type": "BSH Stütze - rechteckig: BSH 140 x 140",
+            "Type": "BSH Stütze - rechteckig: BSH 140 x 140",
+            "Type Id": "BSH Stütze - rechteckig: BSH 140 x 140",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False"
+        },
+        "Psets Object Type": {
+            "Data.Unternehmer": "Künzli",
+            "Dimensions.B": "140.0",
+            "Dimensions.H": "140.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Description": "GL24",
+            "Identity Data.Feuerwiderstandsklasse": "R30",
+            "Identity Data.Type Comments": "B/H=",
+            "Identity Data.Type Name": "BSH 140 x 140",
+            "Identity Data.Workset": "Family  : Structural Columns : BSH Stütze - rechteckig",
+            "Materials and Finishes.Structural Material": "Brettsperrholz",
+            "Other.Category": "Structural Columns",
+            "Other.Family Name": "BSH Stütze - rechteckig",
+            "Structural.Section Shape": "0"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Betonplatte",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Betonplatte",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

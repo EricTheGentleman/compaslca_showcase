@@ -1,0 +1,186 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:3-Schichtplatte 27mm B/C:5306650",
+        "UID": "433526",
+        "GlobalId": "0oNGpnf3X2FxqkMfl8HFCZ",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:3-Schichtplatte 27mm B/C",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:3-Schichtplatte 27mm B/C",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "3-Schicht-Platte",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.027,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, growing in the opposite direction from its reference surface."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.027,
+            "Width unit": "METRE",
+            "Length": 1.1101,
+            "Length unit": "METRE",
+            "Height": 2.209,
+            "Height unit": "METRE",
+            "Gross Side Area": 2.4521,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 2.3388,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.0299,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.0662,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.063,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Curve2D",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0629725738596,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 4.9126088827,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 1.11,
+            "Y": 0.03,
+            "Z": 2.21,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0736,
+        "Real Volume to Bounding Box Volume Ratio": 0.856,
+        "Face Count (tessellated element)": {
+            "Face Count": 52
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 72
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 114
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Base Constraint": "Level: 00_Eingang",
+            "Location Line": "Finish Face: Exterior",
+            "Top Offset": "0.0",
+            "Room Bounding": "False",
+            "Base Offset": "-4.0",
+            "Unconnected Height": "2209.0",
+            "Area": "2.33882514598556",
+            "Length": "1165.2625205916",
+            "Volume": "0.0629725738595734",
+            "Edited by": "",
+            "Workset": "Innenausbau",
+            "Category": "Walls",
+            "Family": "Basic Wall: 3-Schichtplatte 27mm B/C",
+            "Family and Type": "Basic Wall: 3-Schichtplatte 27mm B/C",
+            "Type": "Basic Wall: 3-Schichtplatte 27mm B/C",
+            "Type Id": "Basic Wall: 3-Schichtplatte 27mm B/C",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "3.92592592592593",
+            "Analytical Properties.Thermal Mass": "1.9661702095872",
+            "Analytical Properties.Thermal Resistance (R)": "0.254716981132075",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Construction.Width": "27.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "3-Schichtplatte 27mm B/C",
+            "Materials and Finishes.Structural Material": "3-Schicht-Platte",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": [
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "3Q1KRd6k17b87D7NRE6_7V",
+                "OpeningType": "Not defined"
+            },
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0G33UpwsL5ZxJvw2cM10Q9",
+                "OpeningType": "Not defined"
+            }
+        ],
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

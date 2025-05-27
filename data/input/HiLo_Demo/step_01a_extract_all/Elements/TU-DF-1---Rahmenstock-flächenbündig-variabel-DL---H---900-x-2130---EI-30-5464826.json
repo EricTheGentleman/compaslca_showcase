@@ -1,0 +1,171 @@
+{
+    "Element Metadata": {
+        "Name": "TU DF 1 - Rahmenstock flächenbündig variabel:DL - H - 900 x 2130 - EI 30:5464826",
+        "UID": "442171",
+        "GlobalId": "1Tv0YGeiT2fAVW5nnqum0c",
+        "Type": "IfcDoor",
+        "ObjectType": "TU DF 1 - Rahmenstock flächenbündig variabel:DL - H - 900 x 2130 - EI 30",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.986,
+            "Width unit": "METRE",
+            "Height": 2.128,
+            "Height unit": "METRE"
+        },
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.09996171672319999,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 6.0306062196,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.99,
+            "Y": 0.2,
+            "Z": 2.13,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.4217,
+        "Real Volume to Bounding Box Volume Ratio": 0.237,
+        "Face Count (tessellated element)": {
+            "Face Count": 10240
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 10940
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 20830
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Sill Height": "0.0",
+            "Wandaufbau Bandseite": "0.0",
+            "Wandaufbau Gegenbandseite": "0.0",
+            "Winkel Öffnungsbogen": "90.0",
+            "Durchgangsbreite": "886.0",
+            "Fußbodenaufbau": "180.0",
+            "Angabe Lichter Durchgang Breite": "886.0",
+            "Angabe Maueröffnungsmaß Breite": "0.0",
+            "Area": "5.3615992720886",
+            "Height": "2128.0",
+            "Rough Height": "2308.0",
+            "Rough Width": "986.0",
+            "Volume": "0.000191900249999998",
+            "Width": "986.0",
+            "Grundrissdarstellung Türsturz": "False",
+            "Kollisionskörper einschalten": "False",
+            "Tür mit Anschlag": "False",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Mark": "43",
+            "Drücker Bandseite": "True",
+            "Drücker Gegenbandseite": "True",
+            "Zylinderrosette": "True",
+            "Category": "Doors",
+            "Host Id": "Basic Wall: BSP 140 Sichtseite einseitig",
+            "Family": "TU DF 1 - Rahmenstock flächenbündig variabel: DL - H - 900 x 2130 - EI 30",
+            "Family and Type": "TU DF 1 - Rahmenstock flächenbündig variabel: DL - H - 900 x 2130 - EI 30",
+            "Head Height": "2128.0",
+            "Type": "TU DF 1 - Rahmenstock flächenbündig variabel: DL - H - 900 x 2130 - EI 30",
+            "Type Id": "TU DF 1 - Rahmenstock flächenbündig variabel: DL - H - 900 x 2130 - EI 30",
+            "Knauf Außenseite": "False",
+            "Knauf Innenseite": "False",
+            "Wandstärke": "140.0",
+            "Wandstärke Gesamt": "140.000000000967",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Define Thermal Properties by": "Schematic Type",
+            "Analytical Properties.Analytic Construction": "<None",
+            "Constraints.Durchgangshöhe": "2078.0",
+            "Construction.Function": "Interior",
+            "Construction.Wall Closure": "By host",
+            "Construction.Drückerhöhe": "1050.0",
+            "Construction.Rahmendicke": "50.0",
+            "Data.Anschlag- / Bewegungsart Tür": "Drehflügeltür",
+            "Data.Anzahl Flügel": "einflügelig",
+            "Data.Anzahl Oberlichter": "0",
+            "Data.Anzahl Seitenteile": "0",
+            "Data.Ausführung Zarge": "Umfassungszarge",
+            "Data.Form Tür": "rechteckig",
+            "Data.Unternehmer": "Künzli",
+            "Dimensions.Größenberechnung über Lichten Durchgang": "True",
+            "Dimensions.Größenberechnung über Maueröffnungsmaß": "False",
+            "Dimensions.Höhe ab FBOK berechnen": "True",
+            "Dimensions.Randabstand Öffnungssymbol": "0.0",
+            "Dimensions.Angabe Lichter Durchgang Höhe": "2078.0",
+            "Dimensions.Angabe Maueröffnungsmaß Höhe": "2000.0",
+            "Dimensions.Höhe ab FBOK": "2128.0",
+            "Dimensions.Thickness": "35.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.Description": "1-teilig",
+            "Identity Data.Feuerwiderstandsklasse": "EI30",
+            "Identity Data.Fire Rating": "EI30",
+            "Identity Data.OmniClass Number": "23.30.10.00",
+            "Identity Data.OmniClass Title": "Doors",
+            "Identity Data.Type Comments": "Rahmenstock flächenbündig_variabel",
+            "Identity Data.Type Mark": "52",
+            "Identity Data.Type Name": "DL - H - 900 x 2130 - EI 30",
+            "Identity Data.URL": "http://www.autodesk.de/BIM",
+            "Identity Data.Workset": "Family  : Doors : TU DF 1 - Rahmenstock flächenbündig variabel",
+            "Other.Category": "Doors",
+            "Other.Family Name": "TU DF 1 - Rahmenstock flächenbündig variabel"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

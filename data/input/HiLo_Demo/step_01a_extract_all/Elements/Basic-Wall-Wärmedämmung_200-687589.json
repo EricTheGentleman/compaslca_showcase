@@ -1,0 +1,162 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Wärmedämmung_200:687589",
+        "UID": "1302",
+        "GlobalId": "3PSzbSor5DzehfFtR_jjmG",
+        "Type": "IfcWall",
+        "ObjectType": "Basic Wall:Wärmedämmung_200",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSet",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Wärmedämmung Mineralwolle, 0.035 W/mK",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.1,
+                    "Thickness unit": "METRE"
+                },
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Wärmedämmung Mineralwolle, 0.035 W/mK",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.1,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "Brep",
+            "Curve2D"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 2.0856688829765,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 27.878459764800002,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.2,
+            "Y": 6.24,
+            "Z": 2.95,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 3.6816,
+        "Real Volume to Bounding Box Volume Ratio": 0.567,
+        "Face Count (tessellated element)": {
+            "Face Count": 182
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 438
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 492
+        },
+        "Primary Object Axis (Cardinal Direction)": "N"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Constraint": "Level: 00_Betonplatte",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Base Offset": "0.0",
+            "Cross-Section": "Vertical",
+            "Location Line": "Core Face: Exterior",
+            "Top Constraint": "Level: 01_Galerie",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Top Offset": "-475.000000000001",
+            "Unconnected Height": "2984.99999999991",
+            "Area": "11.0186671147385",
+            "Length": "6012.30655928857",
+            "Volume": "2.13622092017153",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: Wärmedämmung_200",
+            "Family and Type": "Basic Wall: Wärmedämmung_200",
+            "Type": "Basic Wall: Wärmedämmung_200",
+            "Type Id": "Basic Wall: Wärmedämmung_200",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "0.17",
+            "Analytical Properties.Thermal Mass": "0.62821035648",
+            "Analytical Properties.Thermal Resistance (R)": "5.88235294117647",
+            "Construction.Function": "Exterior",
+            "Construction.Width": "200.0",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Exterior",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "12632256",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "Wärmedämmung_200",
+            "Identity Data.Workset": "Wall Types",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Betonplatte",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Betonplatte",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

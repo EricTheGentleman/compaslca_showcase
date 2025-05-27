@@ -1,0 +1,130 @@
+{
+    "Element Metadata": {
+        "Name": "Rohranschluss_Technikschnttelle_Nest:Regenwasser Trinkwasser:6272092",
+        "UID": "663180",
+        "GlobalId": "1Et2c94TXFAwSKPeylnBC2",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "Rohranschluss_Technikschnttelle_Nest:Regenwasser Trinkwasser",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "3D-Schnittmaterial",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 4.2414705999999995e-05,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.0084720301,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.02,
+            "Y": 0.11,
+            "Z": 0.02,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0,
+        "Real Volume to Bounding Box Volume Ratio": null,
+        "Face Count (tessellated element)": {
+            "Face Count": 1316
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 1322
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 2635
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Moves With Nearby Elements": "False",
+            "Elevation from Level": "2824.97978000007",
+            "Host": "Level : 00_Eingang",
+            "Offset from Host": "2824.97978000007",
+            "Area": "0.00423596424822266",
+            "Depth": "111.578679617957",
+            "Volume": "4.24126928339675e-05",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Generic Models",
+            "Family": "Rohranschluss_Technikschnttelle_Nest: Regenwasser Trinkwasser",
+            "Family and Type": "Rohranschluss_Technikschnttelle_Nest: Regenwasser Trinkwasser",
+            "Type": "Rohranschluss_Technikschnttelle_Nest: Regenwasser Trinkwasser",
+            "Type Id": "Rohranschluss_Technikschnttelle_Nest: Regenwasser Trinkwasser",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Constraints.Default Elevation": "0.0",
+            "Dimensions.Diameter": "22.0",
+            "Dimensions.Radius": "11.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Workset": "Family  : Generic Models : Rohranschluss_Technikschnttelle_Nest",
+            "Identity Data.Type Name": "Regenwasser Trinkwasser",
+            "Other.Category": "Generic Models",
+            "Other.Family Name": "Rohranschluss_Technikschnttelle_Nest"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

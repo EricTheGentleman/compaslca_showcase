@@ -1,0 +1,163 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:Dämmung Galerie:6152230",
+        "UID": "629403",
+        "GlobalId": "2BjcZPYG5EXeSo44PvDjhp",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:Dämmung Galerie",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Floor:Dämmung Galerie",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Wärmedämmung Mineralwolle, 0.035 W/mK",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.1,
+                    "Thickness unit": "METRE"
+                },
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Wärmedämmung Mineralwolle, 0.035 W/mK",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.1,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked vertically, defining the element’s buildup."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.2,
+            "Width unit": "METRE",
+            "Gross Volume": 0.0734,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0734,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0734225067217,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 1.236539133,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.56,
+            "Y": 0.77,
+            "Z": 0.2,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0862,
+        "Real Volume to Bounding Box Volume Ratio": 0.852,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "N"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Level": "Level: 01_Galerie",
+            "Room Bounding": "False",
+            "Height Offset From Level": "-275.0",
+            "Area": "0.367112533608328",
+            "Elevation at Bottom": "2444.99999999991",
+            "Elevation at Top": "2644.99999999991",
+            "Perimeter": "2511.57032914726",
+            "Thickness": "200.0",
+            "Volume": "0.0734225067216656",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Floors",
+            "Family": "Floor: Dämmung Galerie",
+            "Family and Type": "Floor: Dämmung Galerie",
+            "Type": "Floor: Dämmung Galerie",
+            "Type Id": "Floor: Dämmung Galerie",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "0.17",
+            "Analytical Properties.Thermal Mass": "0.62821035648",
+            "Analytical Properties.Thermal Resistance (R)": "5.88235294117647",
+            "Construction.Function": "Interior",
+            "Construction.Default Thickness": "200.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "12632256",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Floor Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "Dämmung Galerie",
+            "Other.Category": "Floors",
+            "Other.Family Name": "Floor"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

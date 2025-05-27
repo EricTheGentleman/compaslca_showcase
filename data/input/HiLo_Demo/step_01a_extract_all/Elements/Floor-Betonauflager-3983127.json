@@ -1,0 +1,161 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:Betonauflager:3983127",
+        "UID": "89683",
+        "GlobalId": "0KExtSJDPCowTJFaGqhOG_",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:Betonauflager",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Floor:Betonauflager",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Beton",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.29,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked vertically, defining the element’s buildup."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.29,
+            "Width unit": "METRE",
+            "Gross Volume": 0.447,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.447,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.4470313782565,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 4.5495276944,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 1.58,
+            "Y": 1.05,
+            "Z": 0.29,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.4811,
+        "Real Volume to Bounding Box Volume Ratio": 0.929,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Level": "Level: 01_TragstrukturRückwand",
+            "Height Offset From Level": "160.0",
+            "Area": "1.54148751122917",
+            "Core Thickness": "290.0",
+            "Elevation at Bottom": "4019.99999999994",
+            "Elevation at Bottom Core": "4019.99999999994",
+            "Elevation at Bottom Survey": "4019.99999999994",
+            "Elevation at Top": "4309.99999999994",
+            "Elevation at Top Core": "4309.99999999994",
+            "Elevation at Top Survey": "4309.99999999994",
+            "Perimeter": "5057.07817900518",
+            "Thickness": "290.0",
+            "Volume": "0.44703137825646",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Floors",
+            "Family": "Floor: Betonauflager",
+            "Family and Type": "Floor: Betonauflager",
+            "Type": "Floor: Betonauflager",
+            "Type Id": "Floor: Betonauflager",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Rebar Cover - Bottom Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Rebar Cover - Other Faces": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Rebar Cover - Top Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Structural": "True"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Construction.Function": "Interior",
+            "Construction.Default Thickness": "290.0",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Floor Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Feuerwiderstandsklasse": "R30",
+            "Identity Data.Type Name": "Betonauflager",
+            "Materials and Finishes.Structural Material": "Beton",
+            "Other.Category": "Floors",
+            "Other.Family Name": "Floor"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

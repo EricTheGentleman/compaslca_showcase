@@ -1,0 +1,172 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Fensterlaibung 24mm:6644328",
+        "UID": "1069015",
+        "GlobalId": "3SPfqFOxXFEh3HmV8sT5ZW",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:Fensterlaibung 24mm",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:Fensterlaibung 24mm",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Massivholz Fichte, schwarz lasiert",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.024,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, growing in the opposite direction from its reference surface."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.024,
+            "Width unit": "METRE",
+            "Length": 0.22,
+            "Length unit": "METRE",
+            "Height": 2.1163,
+            "Height unit": "METRE",
+            "Gross Side Area": 0.4656,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 0.4656,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.0053,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.0112,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0112,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Clipping",
+            "Curve2D"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.011173893219699998,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 1.0432986158,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.22,
+            "Y": 2.12,
+            "Z": 0.02,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0093,
+        "Real Volume to Bounding Box Volume Ratio": 1.201,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Extension Distance": "0.0",
+            "Cross-Section": "Vertical",
+            "Top Extension Distance": "0.0",
+            "Base Constraint": "Level: 00_Eingang",
+            "Base is Attached": "True",
+            "Location Line": "Core Face: Interior",
+            "Top Constraint": "Level: 01_UK Decke",
+            "Top is Attached": "True",
+            "Top Offset": "0.0",
+            "Base Offset": "-70.2580106382664",
+            "Unconnected Height": "2370.25801063827",
+            "Area": "0.465578884152547",
+            "Length": "220.0",
+            "Volume": "0.0111738932196612",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: Fensterlaibung 24mm",
+            "Family and Type": "Basic Wall: Fensterlaibung 24mm",
+            "Type": "Basic Wall: Fensterlaibung 24mm",
+            "Type Id": "Basic Wall: Fensterlaibung 24mm",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Construction.Width": "24.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "12632256",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "Fensterlaibung 24mm",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

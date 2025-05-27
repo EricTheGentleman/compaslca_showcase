@@ -1,0 +1,192 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Holzfassade hinterlüftet:1434444",
+        "UID": "35130",
+        "GlobalId": "0XxTIRndPDswCFuTTPaYEK",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:Holzfassade hinterlüftet",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:Holzfassade hinterlüftet",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Holzschalung Vertikal, Nadelholz,  schwarz gestrichen",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.02,
+                    "Thickness unit": "METRE"
+                },
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Luft",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.03,
+                    "Thickness unit": "METRE"
+                },
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Luft",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.04,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, growing in the opposite direction from its reference surface."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.09,
+            "Width unit": "METRE",
+            "Length": 6.2899,
+            "Length unit": "METRE",
+            "Height": 1.9,
+            "Height unit": "METRE",
+            "Gross Side Area": 11.9508,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 11.9508,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.5647,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 1.0756,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 1.0729,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Curve2D",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 1.0729181293103,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 25.3238976432,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 6.29,
+            "Y": 1.9,
+            "Z": 0.09,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 1.0756,
+        "Real Volume to Bounding Box Volume Ratio": 0.998,
+        "Face Count (tessellated element)": {
+            "Face Count": 20
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 36
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 48
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Location Line": "Finish Face: Exterior",
+            "Base Constraint": "Level: 01_Galerie",
+            "Top Constraint": "Level: 01_Brüstung",
+            "Base Offset": "-100.0",
+            "Top Offset": "-130.0",
+            "Unconnected Height": "1900.0",
+            "Area": "11.9508015234921",
+            "Length": "6285.48200152211",
+            "Volume": "1.07291812931027",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: Holzfassade hinterlüftet",
+            "Family and Type": "Basic Wall: Holzfassade hinterlüftet",
+            "Type": "Basic Wall: Holzfassade hinterlüftet",
+            "Type Id": "Basic Wall: Holzfassade hinterlüftet",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "0.357142857142857",
+            "Analytical Properties.Thermal Mass": "0.00783116885376",
+            "Analytical Properties.Thermal Resistance (R)": "2.8",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Construction.Width": "90.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "12632256",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Fire Rating": "",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "Holzfassade hinterlüftet",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

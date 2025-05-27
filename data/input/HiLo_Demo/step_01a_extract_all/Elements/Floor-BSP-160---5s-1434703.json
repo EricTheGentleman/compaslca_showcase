@@ -1,0 +1,156 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:BSP 160 - 5s:1434703",
+        "UID": "35558",
+        "GlobalId": "0XxTIRndPDswCFuTTPaYIN",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:BSP 160 - 5s",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Floor:BSP 160 - 5s",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Brettsperrholz",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.16,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked vertically, defining the element’s buildup."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 2.7814,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 2.7813725056498,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 42.457335389300006,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 16.94,
+            "Y": 0.16,
+            "Z": 5.59,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 15.1511,
+        "Real Volume to Bounding Box Volume Ratio": 0.184,
+        "Face Count (tessellated element)": {
+            "Face Count": 42512
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 42572
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 85054
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Level": "Level: 01_Brüstung",
+            "Height Offset From Level": "-539.999999999995",
+            "Area": "17.3836191132242",
+            "Perimeter": "42225.9205497611",
+            "Thickness": "160.0",
+            "Volume": "2.78137515483798",
+            "Edited by": "",
+            "Workset": "Tragwerk",
+            "Category": "Floors",
+            "Family": "Floor: BSP 160 - 5s",
+            "Family and Type": "Floor: BSP 160 - 5s",
+            "Type": "Floor: BSP 160 - 5s",
+            "Type Id": "Floor: BSP 160 - 5s",
+            "Phase Created": "Zu Bauen",
+            "Curved Edge Condition": "0",
+            "Enable Analytical Model": "False",
+            "Rebar Cover - Bottom Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Rebar Cover - Other Faces": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Rebar Cover - Top Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Structural": "True"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "0.6625",
+            "Analytical Properties.Thermal Mass": "11.651379019776",
+            "Analytical Properties.Thermal Resistance (R)": "1.50943396226415",
+            "Construction.Function": "Interior",
+            "Construction.Default Thickness": "160.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Floor Types",
+            "Identity Data.Cost": "150.0",
+            "Identity Data.Description": "5-lagig",
+            "Identity Data.Feuerwiderstandsklasse": "R30",
+            "Identity Data.Type Name": "BSP 160 - 5s",
+            "Materials and Finishes.Structural Material": "Brettsperrholz",
+            "Other.Category": "Floors",
+            "Other.Family Name": "Floor"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

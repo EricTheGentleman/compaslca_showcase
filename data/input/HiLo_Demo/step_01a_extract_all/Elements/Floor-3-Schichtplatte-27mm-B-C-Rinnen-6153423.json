@@ -1,0 +1,156 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:3-Schichtplatte 27mm B/C Rinnen:6153423",
+        "UID": "629488",
+        "GlobalId": "3FgvoyW9nCf8PhpiAfh2x9",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:3-Schichtplatte 27mm B/C Rinnen",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Floor:3-Schichtplatte 27mm B/C Rinnen",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "3-Schicht-Platte",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.027,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked vertically, defining the element’s buildup."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 0.0457,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.045724266554,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 3.6534111667999998,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 4.53,
+            "Y": 0.37,
+            "Z": 0.03,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0503,
+        "Real Volume to Bounding Box Volume Ratio": 0.909,
+        "Face Count (tessellated element)": {
+            "Face Count": 1352
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 1368
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 2712
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Level": "Level: 01_Galerie",
+            "Room Bounding": "False",
+            "Height Offset From Level": "-218.0",
+            "Area": "1.6934928881493",
+            "Perimeter": "9815.49099732407",
+            "Thickness": "27.0",
+            "Volume": "0.0457242684494121",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Floors",
+            "Family": "Floor: 3-Schichtplatte 27mm B/C Rinnen",
+            "Family and Type": "Floor: 3-Schichtplatte 27mm B/C Rinnen",
+            "Type": "Floor: 3-Schichtplatte 27mm B/C Rinnen",
+            "Type Id": "Floor: 3-Schichtplatte 27mm B/C Rinnen",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "3.92592592592593",
+            "Analytical Properties.Thermal Mass": "1.9661702095872",
+            "Analytical Properties.Thermal Resistance (R)": "0.254716981132075",
+            "Construction.Function": "Interior",
+            "Construction.Default Thickness": "27.0",
+            "Data.Unternehmer": "Kaufmann / Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Floor Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "3-Schichtplatte 27mm B/C Rinnen",
+            "Materials and Finishes.Structural Material": "3-Schicht-Platte",
+            "Other.Category": "Floors",
+            "Other.Family Name": "Floor"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": [
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1y2R1agE14d8MdlVdvPFT7",
+                "OpeningType": "Not defined"
+            }
+        ],
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

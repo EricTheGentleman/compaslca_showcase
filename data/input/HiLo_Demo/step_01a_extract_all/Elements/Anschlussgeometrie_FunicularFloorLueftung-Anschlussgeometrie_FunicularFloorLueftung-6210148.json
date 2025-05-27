@@ -1,0 +1,119 @@
+{
+    "Element Metadata": {
+        "Name": "Anschlussgeometrie_FunicularFloorLueftung:Anschlussgeometrie_FunicularFloorLueftung:6210148",
+        "UID": "654688",
+        "GlobalId": "34GTDrn6T9bPcoCQwImKAw",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "Anschlussgeometrie_FunicularFloorLueftung:Anschlussgeometrie_FunicularFloorLueftung",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0016020083372,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.12031250419999999,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 2.12,
+            "Y": 0.08,
+            "Z": 0.08,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0136,
+        "Real Volume to Bounding Box Volume Ratio": 0.118,
+        "Face Count (tessellated element)": {
+            "Face Count": 10032
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 10056
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 20076
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Moves With Nearby Elements": "False",
+            "Elevation from Level": "0.0",
+            "Offset from Host": "0.0",
+            "Host": "Level : 00_Eingang",
+            "Area": "0.0601328291838697",
+            "Volume": "0.00160138712955391",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Comments": "Anschlussöffnung für Lüftung im Beton",
+            "Category": "Generic Models",
+            "Family": "Anschlussgeometrie_FunicularFloorLueftung: Anschlussgeometrie_FunicularFloorLueftung",
+            "Family and Type": "Anschlussgeometrie_FunicularFloorLueftung: Anschlussgeometrie_FunicularFloorLueftung",
+            "Type": "Anschlussgeometrie_FunicularFloorLueftung: Anschlussgeometrie_FunicularFloorLueftung",
+            "Type Id": "Anschlussgeometrie_FunicularFloorLueftung: Anschlussgeometrie_FunicularFloorLueftung",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Constraints.Default Elevation": "0.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Type Name": "Anschlussgeometrie_FunicularFloorLueftung",
+            "Identity Data.Workset": "Family  : Generic Models : Anschlussgeometrie_FunicularFloorLueftung",
+            "Other.Category": "Generic Models",
+            "Other.Family Name": "Anschlussgeometrie_FunicularFloorLueftung"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

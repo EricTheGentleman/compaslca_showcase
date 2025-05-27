@@ -1,0 +1,187 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:BSP 140 Sichtseite einseitig:6055738",
+        "UID": "610365",
+        "GlobalId": "100RZC9b5Crx3mzeLwzOMS",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:BSP 140 Sichtseite einseitig",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:BSP 140 Sichtseite einseitig",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Brettsperrholz",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.14,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, defining its thickness."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.14,
+            "Width unit": "METRE",
+            "Length": 1.6,
+            "Length unit": "METRE",
+            "Height": 3.3585,
+            "Height unit": "METRE",
+            "Gross Side Area": 5.3736,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 5.3438,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.224,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.7523,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.7156,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Clipping",
+            "Curve2D"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.7156462112689,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 12.2708523965,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.14,
+            "Y": 3.36,
+            "Z": 1.6,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.7526,
+        "Real Volume to Bounding Box Volume Ratio": 0.951,
+        "Face Count (tessellated element)": {
+            "Face Count": 40
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 60
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 90
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Constraint": "Level: 00_Betonplatte",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Location Line": "Core Face: Exterior",
+            "Top Constraint": "Level: 01_Galerie",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Top Offset": "0.0",
+            "Base Offset": "101.529771121113",
+            "Unconnected Height": "3358.47022887879",
+            "Area": "5.34380436620631",
+            "Length": "1600.00000000007",
+            "Volume": "0.715646211268872",
+            "Edited by": "",
+            "Workset": "Tragwerk",
+            "Category": "Walls",
+            "Family": "Basic Wall: BSP 140 Sichtseite einseitig",
+            "Family and Type": "Basic Wall: BSP 140 Sichtseite einseitig",
+            "Type": "Basic Wall: BSP 140 Sichtseite einseitig",
+            "Type Id": "Basic Wall: BSP 140 Sichtseite einseitig",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Rebar Cover - Other Faces": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Structural": "True",
+            "Rebar Cover - Exterior Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Rebar Cover - Interior Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Structural Usage": "Bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "0.757142857142857",
+            "Analytical Properties.Thermal Mass": "10.194956642304",
+            "Analytical Properties.Thermal Resistance (R)": "1.32075471698113",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Construction.Width": "140.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Cost": "170.0",
+            "Identity Data.Feuerwiderstandsklasse": "R30",
+            "Identity Data.Fire Rating": "R30",
+            "Identity Data.Type Name": "BSP 140 Sichtseite einseitig",
+            "Materials and Finishes.Structural Material": "Brettsperrholz",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": [
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1MsBPT_FT7Ze$M$VFDSrMG",
+                "OpeningType": "Not defined"
+            }
+        ],
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Betonplatte",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Betonplatte",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

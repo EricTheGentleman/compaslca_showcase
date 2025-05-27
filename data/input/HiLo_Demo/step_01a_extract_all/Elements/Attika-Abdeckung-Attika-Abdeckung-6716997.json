@@ -1,0 +1,119 @@
+{
+    "Element Metadata": {
+        "Name": "Attika Abdeckung:Attika Abdeckung:6716997",
+        "UID": "1069424",
+        "GlobalId": "3R$9pJGeb6MgJpHJQymSjh",
+        "Type": "IfcSlab",
+        "ObjectType": "Attika Abdeckung:Attika Abdeckung",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 0.0719,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Brep"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.07192773330940001,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 5.9605749116,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 8.83,
+            "Y": 3.92,
+            "Z": 0.04,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 1.3845,
+        "Real Volume to Bounding Box Volume Ratio": 0.052,
+        "Face Count (tessellated element)": {
+            "Face Count": 28
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 56
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 70
+        },
+        "Primary Object Axis (Cardinal Direction)": "NW"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 01_Galerie",
+            "Moves With Nearby Elements": "False",
+            "Room Bounding": "False",
+            "Area": "2.98028745579997",
+            "Volume": "0.0719277333093861",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Floors",
+            "Family": "Attika Abdeckung: Attika Abdeckung",
+            "Family and Type": "Attika Abdeckung: Attika Abdeckung",
+            "Type": "Attika Abdeckung: Attika Abdeckung",
+            "Type Id": "Attika Abdeckung: Attika Abdeckung",
+            "Phase Created": "Zu Bauen",
+            "Rebar Cover": "Rebar Cover Settings: Bewehrungsüberdeckung 1"
+        },
+        "Psets Object Type": {
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Architecture",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Type Name": "Attika Abdeckung",
+            "Other.Category": "Floors",
+            "Other.Family Name": "Attika Abdeckung"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

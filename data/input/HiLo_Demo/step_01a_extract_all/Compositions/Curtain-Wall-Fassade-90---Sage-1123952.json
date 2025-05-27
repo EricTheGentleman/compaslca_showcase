@@ -1,0 +1,326 @@
+{
+    "Element Metadata": {
+        "Name": "Curtain Wall:Fassade 90 - Sage:1123952",
+        "UID": "17694",
+        "GlobalId": "3pJOH7TkT6DO1BGpL4Z68X",
+        "Type": "IfcCurtainWall",
+        "ObjectType": "Curtain Wall:Fassade 90 - Sage",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": [
+            {
+                "Name": "Systemelement:Dämmelement:1123953",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "3pJOH7TkT6DO1BGpL4Z68W"
+            },
+            {
+                "Name": "Systemelement:Dämmelement:1123955",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "3pJOH7TkT6DO1BGpL4Z68Y"
+            },
+            {
+                "Name": "Systemelement:Dämmelement:1123957",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "3pJOH7TkT6DO1BGpL4Z68a"
+            },
+            {
+                "Name": "Systemelement:Dämmelement:1123959",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "3pJOH7TkT6DO1BGpL4Z68c"
+            },
+            {
+                "Name": "Systemelement:Dämmelement:1123980",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "3pJOH7TkT6DO1BGpL4Z6BT"
+            },
+            {
+                "Name": "Systemelement:SageGlass VSG Sonderform:1755320",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOYt"
+            },
+            {
+                "Name": "Systemelement:SageGlass VSG Sonderform:1755321",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOYs"
+            },
+            {
+                "Name": "Fenster Forster Unico:Kippfenster mit Kettenantrieb, Sage Glas:1755322",
+                "IfcEntity": "IfcWindow",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOYr"
+            },
+            {
+                "Name": "Systemelement:SageGlass VSG Sonderform:1755323",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOYq"
+            },
+            {
+                "Name": "Systemelement:SageGlass VSG Sonderform:1755324",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOYp"
+            },
+            {
+                "Name": "Systemelement:SageGlass VSG Sonderform:1124113",
+                "IfcEntity": "IfcPlate",
+                "GlobalId": "3pJOH7TkT6DO1BGpL4Z6D0"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:1609051",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "3LabeDjw1FVObLvE4ql29Y"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:1731257",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "0GbFx5LbvBLR0URad5j2MI"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:1732496",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "0GbFx5LbvBLR0URad5j22x"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:1755337",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOZ6"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:1755338",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOZ5"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:1755339",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOZ4"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:1755340",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOZ3"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:1755341",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOZ2"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:1755342",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOZ1"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:1755343",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOZ0"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:1755344",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOZV"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:1755345",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "3mEEkmrT97eAmn8ALxnOZU"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90 - Nur Pfosten:2355404",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "0foM5uUXf3UBf6TLj8DTUQ"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90 - Nur Pfosten:2355408",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "0foM5uUXf3UBf6TLj8DTU6"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90 - Nur Pfosten:2355410",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "0foM5uUXf3UBf6TLj8DTU4"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90 - Nur Pfosten:2355411",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "0foM5uUXf3UBf6TLj8DTU5"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:2641348",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "1Vlw9LY_P3DPpfMF7Qz1CP"
+            },
+            {
+                "Name": "Pfosten rechteckig:Forster 60 x 90:2641381",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "1Vlw9LY_P3DPpfMF7Qz1Cu"
+            },
+            {
+                "Name": "Pfosten rechteckig:ForsterUnico:3969984",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "1AHwgHl7nAfvT06Yhh8wCY"
+            },
+            {
+                "Name": "Pfosten rechteckig:ForsterUnico:3969989",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "1AHwgHl7nAfvT06Yhh8wCd"
+            },
+            {
+                "Name": "Pfosten rechteckig:ForsterUnico:3969990",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "1AHwgHl7nAfvT06Yhh8wCa"
+            },
+            {
+                "Name": "Pfosten rechteckig:ForsterUnico:3969996",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "1AHwgHl7nAfvT06Yhh8wCk"
+            },
+            {
+                "Name": "Pfosten rechteckig:ForsterUnico:3970002",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "1AHwgHl7nAfvT06Yhh8wCm"
+            },
+            {
+                "Name": "Pfosten rechteckig:ForsterUnico:3970008",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "1AHwgHl7nAfvT06Yhh8wCw"
+            },
+            {
+                "Name": "Pfosten rechteckig:ForsterUnico:3970009",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "1AHwgHl7nAfvT06Yhh8wCx"
+            },
+            {
+                "Name": "Pfosten rechteckig:ForsterUnico:3971750",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "2Zo2uNrkP68PIXEccqXjN7"
+            },
+            {
+                "Name": "Pfosten rechteckig:ForsterUnico:4003235",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "0I_hNK391FKfnTJcWQZz8f"
+            },
+            {
+                "Name": "Pfosten rechteckig:ForsterUnico:4288629",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "29coXPimf8_vhlGdo1Udfu"
+            },
+            {
+                "Name": "Pfosten rechteckig:ForsterUnico:4706878",
+                "IfcEntity": "IfcMember",
+                "GlobalId": "3Czyc1tjD2puG3JzcY5yc3"
+            }
+        ]
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": "Not defined",
+        "Quantities (COMPAS)": {},
+        "Bounding Box Dimensions (OBB - local frame)": {},
+        "Bounding Box Volume": null,
+        "Real Volume to Bounding Box Volume Ratio": null,
+        "Face Count (tessellated element)": {},
+        "Vertex Count (tessellated element)": {},
+        "Edge Count (tessellated element)": {},
+        "Primary Object Axis (Cardinal Direction)": "Not defined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Top is Attached": "False",
+            "Top Offset": "0.0",
+            "Base Constraint": "Level: 01_Brüstung",
+            "Top Constraint": "Level: 02_Dachfirst",
+            "Base Offset": "-60.0",
+            "Unconnected Height": "2110.00000000009",
+            "Area": "10.0118832887053",
+            "Length": "4200.0",
+            "Angle": "0.0",
+            "Justification": "Beginning",
+            "Number": "4",
+            "Offset": "-174.1",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Curtain Wall: Fassade 90 - Sage",
+            "Family and Type": "Curtain Wall: Fassade 90 - Sage",
+            "Type": "Curtain Wall: Fassade 90 - Sage",
+            "Type Id": "Curtain Wall: Fassade 90 - Sage",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "True",
+            "Structural Usage": "Bearing"
+        },
+        "Psets Object Type": {
+            "Construction.Function": "Exterior",
+            "Construction.Automatically Embed": "False",
+            "Construction.Curtain Panel": "Systemelement: SageGlass VSG",
+            "Construction.Join Condition": "Vertical Grid Continuous",
+            "Data.Unternehmer": "Pletscher",
+            "Horizontal Grid.Adjust for Mullion Size": "True",
+            "Horizontal Grid.Layout": "None",
+            "Horizontal Grid.Spacing": "10000.0",
+            "Horizontal Mullions.Border 1 Type": "Pfosten rechteckig: Forster 60 x 90",
+            "Horizontal Mullions.Interior Type": "Pfosten rechteckig: Forster 60 x 90",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Curtain Wall Types",
+            "Identity Data.Fire Rating": "R0",
+            "Identity Data.Type Name": "Fassade 90 - Sage",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Curtain Wall",
+            "Vertical Grid.Adjust for Mullion Size": "True",
+            "Vertical Grid.Layout": "None",
+            "Vertical Grid.Spacing": "1300.0",
+            "Vertical Mullions.Border 2 Type": "Pfosten rechteckig: Forster 60 x 90",
+            "Vertical Mullions.Interior Type": "Pfosten rechteckig: Forster 60 x 90",
+            "Vertical Mullions.Border 1 Type": "Pfosten rechteckig: ForsterUnico"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

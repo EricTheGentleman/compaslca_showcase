@@ -1,0 +1,156 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Brandschutzplatte:5251017",
+        "UID": "99408",
+        "GlobalId": "3_kqkSEVjFfA5bkOsNwaii",
+        "Type": "IfcWall",
+        "ObjectType": "Basic Wall:Brandschutzplatte",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSet",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "3-Schicht-Platte",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.028,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "Curve2D",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0519805546736,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 3.973005997,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 4.72,
+            "Y": 0.03,
+            "Z": 0.51,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0722,
+        "Real Volume to Bounding Box Volume Ratio": 0.72,
+        "Face Count (tessellated element)": {
+            "Face Count": 24
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 48
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 60
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Location Line": "Finish Face: Exterior",
+            "Top Constraint": "Level: 01_TragstrukturRückwand",
+            "Base Constraint": "Level: 01_TragstrukturRückwand",
+            "Base Offset": "159.999999999974",
+            "Top Offset": "672.99999999997",
+            "Unconnected Height": "512.999999999995",
+            "Area": "1.85644838120158",
+            "Length": "4827.51466966798",
+            "Volume": "0.0519805546736444",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: Brandschutzplatte",
+            "Family and Type": "Basic Wall: Brandschutzplatte",
+            "Type": "Basic Wall: Brandschutzplatte",
+            "Type Id": "Basic Wall: Brandschutzplatte",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "3.78571428571429",
+            "Analytical Properties.Thermal Mass": "2.0389913284608",
+            "Analytical Properties.Thermal Resistance (R)": "0.264150943396226",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Construction.Width": "28.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Fire Rating": "EI30",
+            "Identity Data.Type Name": "Brandschutzplatte",
+            "Materials and Finishes.Structural Material": "3-Schicht-Platte",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

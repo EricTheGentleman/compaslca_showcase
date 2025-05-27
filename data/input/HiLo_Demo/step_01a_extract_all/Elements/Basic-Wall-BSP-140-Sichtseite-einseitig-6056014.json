@@ -1,0 +1,160 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:BSP 140 Sichtseite einseitig:6056014",
+        "UID": "612947",
+        "GlobalId": "100RZC9b5Crx3mzeLwzOhe",
+        "Type": "IfcWall",
+        "ObjectType": "Basic Wall:BSP 140 Sichtseite einseitig",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSet",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Brettsperrholz",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.14,
+                    "Thickness unit": "METRE"
+                }
+            ]
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "Brep",
+            "Curve2D"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.9630090779339,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 15.249199364399999,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 2.4,
+            "Y": 0.14,
+            "Z": 2.88,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.9677,
+        "Real Volume to Bounding Box Volume Ratio": 0.995,
+        "Face Count (tessellated element)": {
+            "Face Count": 124
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 306
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 339
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Constraint": "Level: 00_Betonplatte",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Base Offset": "0.0",
+            "Cross-Section": "Vertical",
+            "Location Line": "Core Face: Exterior",
+            "Top Constraint": "Level: 01_Galerie",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Top Offset": "-475.0",
+            "Unconnected Height": "2984.99999999991",
+            "Area": "6.87896291132138",
+            "Length": "2400.38711944219",
+            "Volume": "0.963007277593486",
+            "Edited by": "",
+            "Workset": "Tragwerk",
+            "Category": "Walls",
+            "Family": "Basic Wall: BSP 140 Sichtseite einseitig",
+            "Family and Type": "Basic Wall: BSP 140 Sichtseite einseitig",
+            "Type": "Basic Wall: BSP 140 Sichtseite einseitig",
+            "Type Id": "Basic Wall: BSP 140 Sichtseite einseitig",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Rebar Cover - Other Faces": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Structural": "True",
+            "Rebar Cover - Exterior Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Rebar Cover - Interior Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Structural Usage": "Bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "0.757142857142857",
+            "Analytical Properties.Thermal Mass": "10.194956642304",
+            "Analytical Properties.Thermal Resistance (R)": "1.32075471698113",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Construction.Width": "140.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Cost": "170.0",
+            "Identity Data.Feuerwiderstandsklasse": "R30",
+            "Identity Data.Fire Rating": "R30",
+            "Identity Data.Type Name": "BSP 140 Sichtseite einseitig",
+            "Materials and Finishes.Structural Material": "Brettsperrholz",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Betonplatte",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Betonplatte",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

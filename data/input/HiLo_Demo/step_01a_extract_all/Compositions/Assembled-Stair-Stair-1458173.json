@@ -1,0 +1,120 @@
+{
+    "Element Metadata": {
+        "Name": "Assembled Stair:Stair:1458173",
+        "UID": "35894",
+        "GlobalId": "0AUqYOipD7ohrIsOnF3GW9",
+        "Type": "IfcStair",
+        "ObjectType": "Assembled Stair:Faltwerktreppe Stahl",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": [
+            {
+                "Name": "Assembled Stair:Stair:1458173 Run 1",
+                "IfcEntity": "IfcStairFlight",
+                "GlobalId": "0AUqYOipD7ohrIsOnF3NTs"
+            },
+            {
+                "Name": "Assembled Stair:Stair:1458173 Landing 1",
+                "IfcEntity": "IfcSlab",
+                "GlobalId": "0AUqYOipD7ohrIsOnF3NOk"
+            }
+        ]
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": "Not defined",
+        "Quantities (COMPAS)": {},
+        "Bounding Box Dimensions (OBB - local frame)": {},
+        "Bounding Box Volume": null,
+        "Real Volume to Bounding Box Volume Ratio": null,
+        "Face Count (tessellated element)": {},
+        "Vertex Count (tessellated element)": {},
+        "Edge Count (tessellated element)": {},
+        "Primary Object Axis (Cardinal Direction)": "Not defined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Base Level": "Level: 00_Eingang",
+            "Base Offset": "-4.0",
+            "Desired Stair Height": "2930.99999999991",
+            "Top Level": "Level: 01_Galerie",
+            "Top Offset": "7.0",
+            "Actual Number of Risers": "16",
+            "Actual Riser Height": "183.187499999994",
+            "Actual Tread Depth": "261.0",
+            "Desired Number of Risers": "16",
+            "Tread/Riser Start Number": "1",
+            "Edited by": "",
+            "Workset": "Stair Types",
+            "Category": "Stairs",
+            "Family": "Assembled Stair: Faltwerktreppe Stahl",
+            "Family and Type": "Assembled Stair: Faltwerktreppe Stahl",
+            "Type": "Assembled Stair: Faltwerktreppe Stahl",
+            "Type Id": "Assembled Stair: Faltwerktreppe Stahl",
+            "Phase Created": "Zu Bauen",
+            "Left Lateral Offset": "0.0",
+            "Left Support": "None",
+            "Middle Support": "False",
+            "Middle Support Number": "0",
+            "Right Lateral Offset": "0.0",
+            "Right Support": "None",
+            "Family Name": "Assembled Stair",
+            "Assembly Code": "",
+            "Assembly Description": "",
+            "Type Name": "Faltwerktreppe Stahl",
+            "Cut Mark Type": "Stair Cut Mark: Zickzack einfach",
+            "Unternehmer": "Schlosser",
+            "Function": "Interior",
+            "Landing Type": "Non-Monolithic Landing: Podest - nicht massiv",
+            "Run Type": "Non-Monolithic Run: Stahlstufen gefaltet",
+            "Maximum Riser Height": "220.0",
+            "Minimum Run Width": "900.0",
+            "Minimum Tread Depth": "250.0"
+        },
+        "Psets Object Type": {}
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

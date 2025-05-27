@@ -1,0 +1,215 @@
+{
+    "Element Metadata": {
+        "Name": "FE TÜR 3 tlg - DK-Fix im Rahmen-DK:Fenster Büro2:1812790",
+        "UID": "47378",
+        "GlobalId": "2BG9j1Bgb2xOV69dnpdgeX",
+        "Type": "IfcWindow",
+        "ObjectType": "FE TÜR 3 tlg - DK-Fix im Rahmen-DK:Fenster Büro2",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 3.989,
+            "Width unit": "METRE",
+            "Height": 2.205,
+            "Height unit": "METRE"
+        },
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.4446277938462,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 24.8615056591,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 3.99,
+            "Y": 0.1,
+            "Z": 2.27,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.9057,
+        "Real Volume to Bounding Box Volume Ratio": 0.491,
+        "Face Count (tessellated element)": {
+            "Face Count": 1308
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 2592
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 3258
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Glasflaeche": "6.507954",
+            "Level": "Level: 00_Eingang",
+            "Sill Height": "0.0",
+            "Einbautiefe": "0.0",
+            "Wandaufbau Innen": "0.0",
+            "Winkel Links": "90.0",
+            "Winkel Rechts": "90.0",
+            "Fußbodenaufbau": "70.0",
+            "Wandaufbau Aussen": "200.0",
+            "AL_Abzug Oben": "0.0",
+            "Leibungsschräge Links": "0.0",
+            "Leibungsschräge Rechts": "0.0",
+            "AL_Abzug Links": "26.0",
+            "AL_Abzug Rechts": "60.3",
+            "AL_Abzug Unten": "46.0",
+            "Leibungsschräge Oben": "50.0",
+            "Leibungsschräge Unten": "75.0",
+            "SOFiSTiK_HeadProject": "2240.0",
+            "SOFiSTiK_HeadShared": "447490.0",
+            "SOFiSTiK_SillProject": "-9.99999999998595",
+            "SOFiSTiK_SillShared": "445240.0",
+            "AL Breite": "3902.7",
+            "AL Höhe": "2229.0",
+            "Area": "9.87513977395814",
+            "Feldbreite Links": "1036.0",
+            "Feldbreite Rechts": "1036.0",
+            "Gleiche Feldbreiten": "False",
+            "Height": "2205.0",
+            "Rough Height": "2275.0",
+            "Volume": "0.581572649991109",
+            "Symbol Drehflügel im Grundriss": "True",
+            "Winkel Öffnungssymbol Links": "90.0",
+            "Winkel Öffnungssymbol Rechts": "90.0",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Mark": "28",
+            "Fensterbank Aussen Metall": "False",
+            "Fensterbank Aussen Stein": "False",
+            "Glas": "Glas SageGlassClimatop",
+            "Rahmenbreite Links": "82.0",
+            "Rahmenbreite Oben": "105.0",
+            "Rahmenbreite Rechts": "118.0",
+            "Rahmenbreite Unten": "82.0",
+            "Category": "Windows",
+            "Host Id": "Basic Wall: BSP 140 - 5s",
+            "Family": "FE TÜR 3 tlg - DK-Fix im Rahmen-DK: Fenster Büro2",
+            "Family and Type": "FE TÜR 3 tlg - DK-Fix im Rahmen-DK: Fenster Büro2",
+            "Head Height": "2205.0",
+            "Type": "FE TÜR 3 tlg - DK-Fix im Rahmen-DK: Fenster Büro2",
+            "Type Id": "FE TÜR 3 tlg - DK-Fix im Rahmen-DK: Fenster Büro2",
+            "B_Winkel 1": "0.0",
+            "B_Winkel 2": "0.0",
+            "B_AL_Abzug Rechts": "60.3",
+            "B_AL Abzug Links": "26.0",
+            "B_Einbautiefe": "1000.0",
+            "B_Feldbreite Links": "1036.0",
+            "B_Feldbreite Mitte": "1413.0",
+            "B_Feldbreite Rechts": "1036.0",
+            "B_Griffhöhe": "1009.0",
+            "B_Leibungsschräge Links": "1000.0",
+            "B_Leibungsschräge Oben": "950.0",
+            "B_Leibungsschräge Rechts": "1000.0",
+            "B_Leibungsschräge Unten": "925.0",
+            "B_Neigung Fensterbank": "20.5560452195835",
+            "B_Rahmenbreite Links": "82.0",
+            "B_Rahmenbreite Rechts": "118.0",
+            "Kämpferposition 1": "1112.0",
+            "Kämpferposition 2": "1112.0",
+            "Rahmenlichte Breite": "3789.0",
+            "Rahmenlichte Höhe": "2018.0",
+            "Wandstärke": "140.0",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Define Thermal Properties by": "Schematic Type",
+            "Analytical Properties.Analytic Construction": "<None",
+            "Construction.Wall Closure": "By host",
+            "Construction.Griffhöhe = Flügelmitte": "True",
+            "Construction.Flügelbreite": "68.0",
+            "Construction.Glasstärke": "44.0",
+            "Construction.Griffhöhe ab Flügelunterkante": "350.0",
+            "Construction.Pfostenbreite": "152.0",
+            "Construction.Rahmentiefe": "64.0",
+            "Data.Ausführung Verglasung": "Isolierverglasung 3-fach",
+            "Data.Bauart Fenster": "Fenstertür",
+            "Data.Form Fenster": "rechteckig",
+            "Data.Lage Bauteil": "außen",
+            "Data.Teiligkeit Fenster": "3-teilig senkrecht geteilt",
+            "Data.Unternehmer": "Künzli",
+            "Dimensions.Höhe ab FBOK berechnen": "True",
+            "Dimensions.Randabstand Öffnungssymbol": "0.0",
+            "Dimensions.Dicke": "64.0",
+            "Dimensions.Höhe ab FBOK": "2205.0",
+            "Dimensions.Rough Width": "3989.0",
+            "Dimensions.Width": "3989.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Model": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.Feuerwiderstandsklasse": "",
+            "Identity Data.Keynote": "",
+            "Identity Data.Workset": "Family  : Windows : FE TÜR 3 tlg - DK-Fix im Rahmen-DK",
+            "Identity Data.Description": "3-teilig",
+            "Identity Data.OmniClass Number": "23.30.20.00",
+            "Identity Data.OmniClass Title": "Windows",
+            "Identity Data.Type Comments": "FE TUER 3 tlg_DK-Fix im Rahmen-DK",
+            "Identity Data.Type Mark": "33",
+            "Identity Data.Type Name": "Fenster Büro2",
+            "Identity Data.URL": "www.autodesk.de/BIM",
+            "Other.Category": "Windows",
+            "Other.Vorgabewert für Einbauhöhe": "0.0",
+            "Other.Family Name": "FE TÜR 3 tlg - DK-Fix im Rahmen-DK",
+            "Overall Legend.Fensterbank Schattenfuge Höhe": "7.0",
+            "Segments and Fittings.Fensterbankdicke Innen": "25.0",
+            "Segments and Fittings.Fensterbank Metall Dicke": "2.0",
+            "Segments and Fittings.Fensterbank Metall Höhe hinten": "20.0",
+            "Segments and Fittings.Fensterbank Metall Höhe Tropfnase": "40.0",
+            "Segments and Fittings.Fensterbank Stein Dicke": "20.0",
+            "Segments and Fittings.Fensterbank Stein Überstand": "20.0"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

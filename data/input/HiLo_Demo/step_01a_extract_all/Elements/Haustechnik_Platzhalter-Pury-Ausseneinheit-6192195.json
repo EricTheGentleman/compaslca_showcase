@@ -1,0 +1,130 @@
+{
+    "Element Metadata": {
+        "Name": "Haustechnik_Platzhalter:Pury Ausseneinheit:6192195",
+        "UID": "634287",
+        "GlobalId": "3FWYQdBzL92vc$OVs8UAaq",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "Haustechnik_Platzhalter:Pury Ausseneinheit",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "3D-Schnittmaterial",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 1.045304,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 6.4216,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.92,
+            "Y": 1.5,
+            "Z": 0.76,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 1.0488,
+        "Real Volume to Bounding Box Volume Ratio": 0.997,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 01_Galerie",
+            "Moves With Nearby Elements": "False",
+            "Elevation from Level": "794.99962102375",
+            "Host": "Level : 01_Galerie",
+            "Offset from Host": "794.99962102375",
+            "Area": "3.2108",
+            "Volume": "1.045304",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Generic Models",
+            "Family": "Haustechnik_Platzhalter: Pury Ausseneinheit",
+            "Family and Type": "Haustechnik_Platzhalter: Pury Ausseneinheit",
+            "Type": "Haustechnik_Platzhalter: Pury Ausseneinheit",
+            "Type Id": "Haustechnik_Platzhalter: Pury Ausseneinheit",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Constraints.Default Elevation": "0.0",
+            "Dimensions.Depth": "760.0",
+            "Dimensions.Height": "1495.0",
+            "Dimensions.Width": "920.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Type Name": "Pury Ausseneinheit",
+            "Identity Data.Workset": "Family  : Generic Models : Haustechnik_Platzhalter",
+            "Other.Category": "Generic Models",
+            "Other.Family Name": "Haustechnik_Platzhalter"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

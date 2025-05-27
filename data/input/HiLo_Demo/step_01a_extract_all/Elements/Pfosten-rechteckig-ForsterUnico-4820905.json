@@ -1,0 +1,130 @@
+{
+    "Element Metadata": {
+        "Name": "Pfosten rechteckig:ForsterUnico:4820905",
+        "UID": "16377",
+        "GlobalId": "0h2qpuXrj2OAX6$X8oEgOx",
+        "Type": "IfcMember",
+        "ObjectType": "Pfosten rechteckig:ForsterUnico",
+        "Classification": "Not defined",
+        "Decomposes": {
+            "Name": "Curtain Wall:Fassade 90 EI30:1123940",
+            "IfcEntity": "IfcCurtainWall",
+            "GlobalId": "3pJOH7TkT6DO1BGpL4Z68r"
+        },
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Stahl, 45-34, Pulverbeschichtung schwarz",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Length": 0.4923,
+            "Length unit": "METRE",
+            "Net Volume": 0.0018,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.001798345044,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.13377101889999998,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.08,
+            "Y": 0.49,
+            "Z": 0.06,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0024,
+        "Real Volume to Bounding Box Volume Ratio": 0.749,
+        "Face Count (tessellated element)": {
+            "Face Count": 316
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 368
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 658
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 01_Brüstung",
+            "Area": "0.0668992045527505",
+            "Length": "492.294391272819",
+            "Volume": "0.00179891117605106",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Curtain Wall Mullions",
+            "Host Id": "Curtain Wall: Fassade 90 EI30",
+            "Family": "Pfosten rechteckig: ForsterUnico",
+            "Family and Type": "Pfosten rechteckig: ForsterUnico",
+            "Type": "Pfosten rechteckig: ForsterUnico",
+            "Type Id": "Pfosten rechteckig: ForsterUnico",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Constraints.Offset": "0.0",
+            "Constraints.Angle": "0.0",
+            "Construction.Corner Mullion": "False",
+            "Construction.Position": "Perpendicular to Face",
+            "Construction.Profile": "ForsterUnico_Offset: Ohne Glaseinstand",
+            "Construction.Thickness": "50.0",
+            "Dimensions.Width on side 1": "0.0",
+            "Dimensions.Width on side 2": "70.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Workset": "Family  : Curtain Wall Mullions : Pfosten rechteckig",
+            "Identity Data.Type Name": "ForsterUnico",
+            "Materials and Finishes.Material": "Stahl, 45-34, Pulverbeschichtung schwarz",
+            "Other.Category": "Curtain Wall Mullions",
+            "Other.Family Name": "Pfosten rechteckig"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "Unknown",
+                "type": "Unknown"
+            }
+        ]
+    }
+}

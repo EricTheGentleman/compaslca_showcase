@@ -1,0 +1,166 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:Mehrschichtplatte 50mm:3167216",
+        "UID": "88296",
+        "GlobalId": "0plsFTxFrAH8fTRVJG6Lb8",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:Mehrschichtplatte 50mm",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Floor:Mehrschichtplatte 50mm",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "3-Schicht-Platte",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.04,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked vertically, defining the element’s buildup."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 0.1494,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.1493757652137,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 7.9695981124,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 5.5,
+            "Y": 0.69,
+            "Z": 0.04,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.1518,
+        "Real Volume to Bounding Box Volume Ratio": 0.984,
+        "Face Count (tessellated element)": {
+            "Face Count": 2684
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 2694
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 5373
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Level": "Level: 01_Galerie",
+            "Room Bounding": "False",
+            "Height Offset From Level": "-255.000000000002",
+            "Area": "3.73439507918626",
+            "Core Thickness": "40.0000000000001",
+            "Elevation at Bottom": "2624.99999999991",
+            "Elevation at Bottom Core": "2624.99999999991",
+            "Elevation at Bottom Survey": "2624.99999999991",
+            "Elevation at Top": "2664.99999999991",
+            "Elevation at Top Core": "2664.99999999991",
+            "Elevation at Top Survey": "2664.99999999991",
+            "Perimeter": "12237.5029532498",
+            "Thickness": "40.0",
+            "Volume": "0.149375777291683",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Floors",
+            "Family": "Floor: Mehrschichtplatte 50mm",
+            "Family and Type": "Floor: Mehrschichtplatte 50mm",
+            "Type": "Floor: Mehrschichtplatte 50mm",
+            "Type Id": "Floor: Mehrschichtplatte 50mm",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Rebar Cover - Bottom Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Rebar Cover - Other Faces": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Rebar Cover - Top Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Structural": "True"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "2.65",
+            "Analytical Properties.Thermal Mass": "2.912844754944",
+            "Analytical Properties.Thermal Resistance (R)": "0.377358490566038",
+            "Construction.Function": "Interior",
+            "Construction.Default Thickness": "40.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Floor Types",
+            "Identity Data.Cost": "100.0",
+            "Identity Data.Feuerwiderstandsklasse": "R30",
+            "Identity Data.Type Name": "Mehrschichtplatte 50mm",
+            "Other.Category": "Floors",
+            "Other.Family Name": "Floor"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": [
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "0ql8sY$zT4J86Nbxw5Tf4O",
+                "OpeningType": "Not defined"
+            }
+        ],
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

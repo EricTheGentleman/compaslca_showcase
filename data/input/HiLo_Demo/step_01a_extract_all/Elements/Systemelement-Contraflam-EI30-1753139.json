@@ -1,0 +1,127 @@
+{
+    "Element Metadata": {
+        "Name": "Systemelement:Contraflam EI30:1753139",
+        "UID": "11794",
+        "GlobalId": "3mI_gJGe11aesyZ1BnwxLx",
+        "Type": "IfcPlate",
+        "ObjectType": "Systemelement:Contraflam EI30",
+        "Classification": "Not defined",
+        "Decomposes": {
+            "Name": "Curtain Wall:Fassade 90 EI30:1123940",
+            "IfcEntity": "IfcCurtainWall",
+            "GlobalId": "3pJOH7TkT6DO1BGpL4Z68r"
+        },
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Glas EI30",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 0.0897,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.089718159282,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 3.7237572951000004,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 1.29,
+            "Y": 0.05,
+            "Z": 1.51,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0974,
+        "Real Volume to Bounding Box Volume Ratio": 0.921,
+        "Face Count (tessellated element)": {
+            "Face Count": 508
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 522
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 1023
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 01_Brüstung",
+            "Area": "1.72534646199888",
+            "Volume": "0.0897181276043885",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Curtain Panels",
+            "Host Id": "Curtain Wall: Fassade 90 EI30",
+            "Family": "Systemelement: Contraflam EI30",
+            "Family and Type": "Systemelement: Contraflam EI30",
+            "Type": "Systemelement: Contraflam EI30",
+            "Type Id": "Systemelement: Contraflam EI30",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Define Thermal Properties by": "Schematic Type",
+            "Analytical Properties.Analytic Construction": "<None",
+            "Constraints.Offset": "0.0",
+            "Dimensions.Thickness": "52.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Workset": "Family  : Curtain Panels : Systemelement",
+            "Identity Data.Cost": "1000.0",
+            "Identity Data.Manufacturer": "Vetrotech",
+            "Identity Data.Model": "Contraflam EI60",
+            "Identity Data.Type Mark": "Contraflam EI60",
+            "Identity Data.Type Name": "Contraflam EI30",
+            "Materials and Finishes.Material": "Glas EI30",
+            "Other.Category": "Curtain Panels",
+            "Other.Family Name": "Systemelement"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "Unknown",
+                "type": "Unknown"
+            }
+        ]
+    }
+}

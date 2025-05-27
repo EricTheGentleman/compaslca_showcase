@@ -1,0 +1,149 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:OSB 25mm:5183063",
+        "UID": "98786",
+        "GlobalId": "3HSD1KlFnFqu5xZ0joFL0N",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:OSB 25mm",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Floor:OSB 25mm",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "OSB",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.025,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked vertically, defining the element’s buildup."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 0.6074,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.6073572484175,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 49.089776740699996,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 5.46,
+            "Y": 5.32,
+            "Z": 0.03,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.8714,
+        "Real Volume to Bounding Box Volume Ratio": 0.697,
+        "Face Count (tessellated element)": {
+            "Face Count": 2032
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 2056
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 4076
+        },
+        "Primary Object Axis (Cardinal Direction)": "N"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Level": "Level: 01_Galerie",
+            "Height Offset From Level": "-89.9999999999999",
+            "Area": "24.2942932102117",
+            "Elevation at Bottom": "2804.99999999991",
+            "Elevation at Top": "2829.99999999991",
+            "Perimeter": "19890.7950609751",
+            "Thickness": "25.0",
+            "Volume": "0.607357250747341",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Floors",
+            "Family": "Floor: OSB 25mm",
+            "Family and Type": "Floor: OSB 25mm",
+            "Type": "Floor: OSB 25mm",
+            "Type Id": "Floor: OSB 25mm",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Construction.Function": "Interior",
+            "Construction.Default Thickness": "25.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Floor Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "OSB 25mm",
+            "Materials and Finishes.Structural Material": "OSB",
+            "Other.Category": "Floors",
+            "Other.Family Name": "Floor"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

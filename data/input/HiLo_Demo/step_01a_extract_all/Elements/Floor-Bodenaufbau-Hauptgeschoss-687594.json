@@ -1,0 +1,132 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:Bodenaufbau Hauptgeschoss:687594",
+        "UID": "4309",
+        "GlobalId": "3PSzbSor5DzehfFtR_jjmV",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:Bodenaufbau Hauptgeschoss",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 17.0593,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Brep"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 17.0599498264466,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 89.5879806357,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 7.79,
+            "Y": 0.52,
+            "Z": 7.26,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 29.4088,
+        "Real Volume to Bounding Box Volume Ratio": 0.58,
+        "Face Count (tessellated element)": {
+            "Face Count": 616
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 1284
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 1566
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Height Offset From Level": "-4.0",
+            "Area": "38.0088952766428",
+            "Elevation at Top": "-4.0",
+            "Perimeter": "29483.8664270846",
+            "Thickness": "581.0",
+            "Volume": "17.0593317201996",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Floors",
+            "Family": "Floor: Bodenaufbau Hauptgeschoss",
+            "Family and Type": "Floor: Bodenaufbau Hauptgeschoss",
+            "Type": "Floor: Bodenaufbau Hauptgeschoss",
+            "Type Id": "Floor: Bodenaufbau Hauptgeschoss",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "0.0633521653916073",
+            "Analytical Properties.Thermal Mass": "12.6901851382886",
+            "Analytical Properties.Thermal Resistance (R)": "15.7847801068608",
+            "Construction.Default Thickness": "581.0",
+            "Construction.Function": "Interior",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Floor Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "Bodenaufbau Hauptgeschoss",
+            "Other.Category": "Floors",
+            "Other.Family Name": "Floor"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "Element Metadata": {
+        "Name": "Montageraum Elektro:Montageraum Elektro:6274127",
+        "UID": "663269",
+        "GlobalId": "1Et2c94TXFAwSKPeylnBiH",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "Montageraum Elektro:Montageraum Elektro",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "3D-Schnittmaterial",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.1804835700616,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 2.8928283042,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.2,
+            "Y": 0.39,
+            "Z": 2.33,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.1817,
+        "Real Volume to Bounding Box Volume Ratio": 0.993,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "N"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Moves With Nearby Elements": "False",
+            "Area": "0.0773541679937705",
+            "Volume": "0.180483570061643",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Generic Models",
+            "Family": "Montageraum Elektro: Montageraum Elektro",
+            "Family and Type": "Montageraum Elektro: Montageraum Elektro",
+            "Type": "Montageraum Elektro: Montageraum Elektro",
+            "Type Id": "Montageraum Elektro: Montageraum Elektro",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Architecture",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Type Name": "Montageraum Elektro",
+            "Other.Category": "Generic Models",
+            "Other.Family Name": "Montageraum Elektro"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

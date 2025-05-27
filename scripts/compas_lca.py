@@ -15,7 +15,7 @@ MODULES = [
     {"key": "03", "name": "     MODULE 03 → LCA Calculation", "path": "lca_pipeline/step_03_lca_calculation/run.py", "main": True},
     {"key": "03a", "name": "    Submodule 03a → Append specific indicators to elements", "path": "lca_pipeline/step_03_lca_calculation/step_03a_specific_indicators/run.py", "main": False},
     {"key": "03b", "name": "    Submodule 03b → Calculate gross emissions", "path": "lca_pipeline/step_03_lca_calculation/step_03b_gross_emissions/run.py", "main": False},
-    {"key": "04", "name": "     MODULE 04 → Create LCA report", "path": "lca_pipeline/step_03_lca_calculation/run.py", "main": True},
+    {"key": "04", "name": "     MODULE 04 → Create LCA report", "path": "lca_pipeline/step_04_lca_report/run.py", "main": True},
 ]
 
 def run_module(module):
@@ -40,7 +40,7 @@ def pipeline_menu():
             if mod["key"].lower() == "p2":
                 print("")
             
-            if mod["key"].lower() == "01c":
+            if mod["key"].lower() == "01d":
                 print("")
 
             if mod["key"].lower() == "02b":

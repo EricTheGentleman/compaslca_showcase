@@ -1,0 +1,124 @@
+{
+    "Element Metadata": {
+        "Name": "Systemelement:SageGlass VSG Sonderform:2684092",
+        "UID": "67918",
+        "GlobalId": "1RSpNUafD2EO7VqckljMs9",
+        "Type": "IfcPlate",
+        "ObjectType": "Systemelement:SageGlass VSG Sonderform",
+        "Classification": "Not defined",
+        "Decomposes": {
+            "Name": "Curtain Wall:Fassade 250:2668447",
+            "IfcEntity": "IfcCurtainWall",
+            "GlobalId": "1a1$QVmKz8nRXZVkIMOOAE"
+        },
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Glas SageGlassClimatop",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Net Volume": 0.0648,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0647862005245,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 2.7272986371,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 1.29,
+            "Y": 1.07,
+            "Z": 0.05,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.069,
+        "Real Volume to Bounding Box Volume Ratio": 0.939,
+        "Face Count (tessellated element)": {
+            "Face Count": 20
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 36
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 48
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Area": "1.24588847162459",
+            "Volume": "0.0647862005244787",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Curtain Panels",
+            "Family": "Systemelement: SageGlass VSG Sonderform",
+            "Family and Type": "Systemelement: SageGlass VSG Sonderform",
+            "Type": "Systemelement: SageGlass VSG Sonderform",
+            "Type Id": "Systemelement: SageGlass VSG Sonderform",
+            "Host Id": "Curtain Wall: Fassade 250",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Define Thermal Properties by": "Schematic Type",
+            "Analytical Properties.Analytic Construction": "<None",
+            "Constraints.Offset": "0.0",
+            "Dimensions.Thickness": "52.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Workset": "Family  : Curtain Panels : Systemelement",
+            "Identity Data.Cost": "600.0",
+            "Identity Data.Type Name": "SageGlass VSG Sonderform",
+            "Materials and Finishes.Material": "Glas SageGlassClimatop",
+            "Other.Category": "Curtain Panels",
+            "Other.Family Name": "Systemelement"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "Unknown",
+                "type": "Unknown"
+            }
+        ]
+    }
+}

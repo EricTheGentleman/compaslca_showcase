@@ -1,0 +1,156 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:3-Schichplatte 19mm:7905036",
+        "UID": "1116871",
+        "GlobalId": "2DydaNIE5BZx1xClgJOnz2",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:3-Schichplatte 19mm",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Floor:3-Schichplatte 19mm",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "3-Schicht-Platte",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.019,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked vertically, defining the element’s buildup."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.019,
+            "Width unit": "METRE",
+            "Gross Volume": 0.0175,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0175,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0175105764786,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 1.945349308,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 2.32,
+            "Y": 0.41,
+            "Z": 0.02,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.019,
+        "Real Volume to Bounding Box Volume Ratio": 0.922,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Level": "Level: 01_UK Decke",
+            "Height Offset From Level": "18.9999999999992",
+            "Area": "0.921609288349465",
+            "Elevation at Bottom": "2300.0",
+            "Elevation at Top": "2319.0",
+            "Perimeter": "5375.30164948477",
+            "Thickness": "19.0",
+            "Volume": "0.0175105764786399",
+            "Edited by": "",
+            "Workset": "Innenausbau",
+            "Category": "Floors",
+            "Family": "Floor: 3-Schichplatte 19mm",
+            "Family and Type": "Floor: 3-Schichplatte 19mm",
+            "Type": "Floor: 3-Schichplatte 19mm",
+            "Type Id": "Floor: 3-Schichplatte 19mm",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "5.57894736842105",
+            "Analytical Properties.Thermal Mass": "1.3836012585984",
+            "Analytical Properties.Thermal Resistance (R)": "0.179245283018868",
+            "Construction.Function": "Interior",
+            "Construction.Default Thickness": "19.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Floor Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "3-Schichplatte 19mm",
+            "Materials and Finishes.Structural Material": "3-Schicht-Platte",
+            "Other.Category": "Floors",
+            "Other.Family Name": "Floor"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

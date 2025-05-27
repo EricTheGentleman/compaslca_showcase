@@ -1,0 +1,130 @@
+{
+    "Element Metadata": {
+        "Name": "Rohranschluss_Technikschnttelle_Nest:HEI - Rücklauf:6271422",
+        "UID": "661807",
+        "GlobalId": "1Et2c94TXFAwSKPeylnBRW",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "Rohranschluss_Technikschnttelle_Nest:HEI - Rücklauf",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "3D-Schnittmaterial",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.00026811160409999997,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.0282107591,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.04,
+            "Y": 0.04,
+            "Z": 0.19,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0003,
+        "Real Volume to Bounding Box Volume Ratio": 0.894,
+        "Face Count (tessellated element)": {
+            "Face Count": 1824
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 1830
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 3651
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Moves With Nearby Elements": "False",
+            "Elevation from Level": "2427.00502000012",
+            "Host": "Level : 00_Eingang",
+            "Offset from Host": "2427.00502000012",
+            "Area": "0.0141051925545276",
+            "Depth": "191.690604860668",
+            "Volume": "0.000268098878611179",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Generic Models",
+            "Family": "Rohranschluss_Technikschnttelle_Nest: HEI - Rücklauf",
+            "Family and Type": "Rohranschluss_Technikschnttelle_Nest: HEI - Rücklauf",
+            "Type": "Rohranschluss_Technikschnttelle_Nest: HEI - Rücklauf",
+            "Type Id": "Rohranschluss_Technikschnttelle_Nest: HEI - Rücklauf",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Constraints.Default Elevation": "0.0",
+            "Dimensions.Diameter": "42.2",
+            "Dimensions.Radius": "21.1",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Type Name": "HEI - Rücklauf",
+            "Identity Data.Workset": "Family  : Generic Models : Rohranschluss_Technikschnttelle_Nest",
+            "Other.Category": "Generic Models",
+            "Other.Family Name": "Rohranschluss_Technikschnttelle_Nest"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

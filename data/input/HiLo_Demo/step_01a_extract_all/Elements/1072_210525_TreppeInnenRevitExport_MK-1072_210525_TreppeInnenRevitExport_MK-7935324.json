@@ -1,0 +1,84 @@
+{
+    "Element Metadata": {
+        "Name": "1072_210525_TreppeInnenRevitExport_MK:1072_210525_TreppeInnenRevitExport_MK:7935324",
+        "UID": "1159110",
+        "GlobalId": "3F0C$S43P1ZRg2TjWrCk52",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "1072_210525_TreppeInnenRevitExport_MK:1072_210525_TreppeInnenRevitExport_MK",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "SurfaceModel"
+        ]
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Workset": "Architecture",
+            "Edited by": "knauss@rok-office.com",
+            "Category": "Generic Models",
+            "Family": "1072_210525_TreppeInnenRevitExport_MK: 1072_210525_TreppeInnenRevitExport_MK",
+            "Family and Type": "1072_210525_TreppeInnenRevitExport_MK: 1072_210525_TreppeInnenRevitExport_MK",
+            "Type": "1072_210525_TreppeInnenRevitExport_MK: 1072_210525_TreppeInnenRevitExport_MK",
+            "Type Id": "1072_210525_TreppeInnenRevitExport_MK: 1072_210525_TreppeInnenRevitExport_MK",
+            "Phase Created": "Zu Bauen",
+            "Rebar Cover": "Rebar Cover Settings: Bewehrungsüberdeckung 1"
+        },
+        "Psets Object Type": {
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Direct Shapes",
+            "Identity Data.Edited by": "knauss@rok-office.com",
+            "Identity Data.Type Name": "1072_210525_TreppeInnenRevitExport_MK",
+            "Other.Category": "Generic Models",
+            "Other.Family Name": "1072_210525_TreppeInnenRevitExport_MK"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "Element Metadata": {
+        "Name": "Pfosten rechteckig:Forster 60 x 90:1386850",
+        "UID": "26311",
+        "GlobalId": "1M0IkpSebDA9PfC2a2adUi",
+        "Type": "IfcMember",
+        "ObjectType": "Pfosten rechteckig:Forster 60 x 90",
+        "Classification": "Not defined",
+        "Decomposes": {
+            "Name": "Curtain Wall:Fassade 90 - Sage:1123983",
+            "IfcEntity": "IfcCurtainWall",
+            "GlobalId": "3pJOH7TkT6DO1BGpL4Z6BU"
+        },
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Stahl, 45-34, Pulverbeschichtung schwarz",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Length": 0.975,
+            "Length unit": "METRE",
+            "Net Volume": 0.0076,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.007644000002399999,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.5694800002,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.06,
+            "Y": 0.17,
+            "Z": 0.98,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.01,
+        "Real Volume to Bounding Box Volume Ratio": 0.764,
+        "Face Count (tessellated element)": {
+            "Face Count": 44
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 72
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 102
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 01_Galerie",
+            "Area": "0.284740000086563",
+            "Length": "975.0000003048",
+            "Volume": "0.00764400000238963",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Mark": "Horizontal",
+            "Category": "Curtain Wall Mullions",
+            "Family": "Pfosten rechteckig: Forster 60 x 90",
+            "Family and Type": "Pfosten rechteckig: Forster 60 x 90",
+            "Type": "Pfosten rechteckig: Forster 60 x 90",
+            "Type Id": "Pfosten rechteckig: Forster 60 x 90",
+            "Host Id": "Curtain Wall: Fassade 90 - Sage",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Constraints.Offset": "0.0",
+            "Constraints.Angle": "0.0",
+            "Construction.Corner Mullion": "False",
+            "Construction.Position": "Perpendicular to Face",
+            "Construction.Profile": "ForsterPfosten: Forster Variotherm - 60 x 90",
+            "Construction.Thickness": "174.0",
+            "Data.Unternehmer": "Kaufmann",
+            "Dimensions.Width on side 1": "5.0",
+            "Dimensions.Width on side 2": "5.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Keynote": "40.01.01.05",
+            "Identity Data.Type Name": "Forster 60 x 90",
+            "Identity Data.Workset": "Family  : Curtain Wall Mullions : Pfosten rechteckig",
+            "Other.Category": "Curtain Wall Mullions",
+            "Other.Family Name": "Pfosten rechteckig"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "Unknown",
+                "type": "Unknown"
+            }
+        ]
+    }
+}

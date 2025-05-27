@@ -1,0 +1,108 @@
+{
+    "Element Metadata": {
+        "Name": "1072_211122_HiLo_TerrasseExportPletscher_MK_001:1072_211122_HiLo_TerrasseExportPletscher_MK_001:7935239",
+        "UID": "1131800",
+        "GlobalId": "2P1Lw8yun3pBsrFxTc_j79",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "1072_211122_HiLo_TerrasseExportPletscher_MK_001:1072_211122_HiLo_TerrasseExportPletscher_MK_001",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "SurfaceModel"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 7.540047474362799,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 21.0345327288,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 12.58,
+            "Y": 13.23,
+            "Z": 2.45,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 407.7618,
+        "Real Volume to Bounding Box Volume Ratio": 0.018,
+        "Face Count (tessellated element)": {
+            "Face Count": 27230
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 31680
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 56685
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Generic Models",
+            "Family": "1072_211122_HiLo_TerrasseExportPletscher_MK_001: 1072_211122_HiLo_TerrasseExportPletscher_MK_001",
+            "Family and Type": "1072_211122_HiLo_TerrasseExportPletscher_MK_001: 1072_211122_HiLo_TerrasseExportPletscher_MK_001",
+            "Type": "1072_211122_HiLo_TerrasseExportPletscher_MK_001: 1072_211122_HiLo_TerrasseExportPletscher_MK_001",
+            "Type Id": "1072_211122_HiLo_TerrasseExportPletscher_MK_001: 1072_211122_HiLo_TerrasseExportPletscher_MK_001",
+            "Phase Created": "Zu Bauen",
+            "Rebar Cover": "Rebar Cover Settings: Bewehrungsüberdeckung 1"
+        },
+        "Psets Object Type": {
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Direct Shapes",
+            "Identity Data.Type Name": "1072_211122_HiLo_TerrasseExportPletscher_MK_001",
+            "Other.Category": "Generic Models",
+            "Other.Family Name": "1072_211122_HiLo_TerrasseExportPletscher_MK_001"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Betonplatte",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Betonplatte",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

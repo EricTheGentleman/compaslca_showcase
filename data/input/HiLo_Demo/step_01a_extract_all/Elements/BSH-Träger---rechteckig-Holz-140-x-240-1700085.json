@@ -1,0 +1,162 @@
+{
+    "Element Metadata": {
+        "Name": "BSH Träger - rechteckig:Holz 140 x 240:1700085",
+        "UID": "41834",
+        "GlobalId": "3HFKYThnvBKRkv9hdgblSk",
+        "Type": "IfcBeam",
+        "ObjectType": "BSH Träger - rechteckig:Holz 140 x 240",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Brettschichtholz C24",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Length": 4.612,
+            "Length unit": "METRE",
+            "Net Volume": 0.152,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Curve2D",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.15204,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 3.5062,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 4.53,
+            "Y": 0.14,
+            "Z": 0.24,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.1522,
+        "Real Volume to Bounding Box Volume Ratio": 0.999,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Cross-Section Rotation": "0.0",
+            "Reference Level": "Level: 01_Galerie",
+            "End Level Offset": "-475.0",
+            "Reference Level Elevation": "2919.99999999991",
+            "Start Level Offset": "-475.0",
+            "Elevation at Bottom": "2203.9999999999",
+            "Elevation at Top": "2444.99999999991",
+            "Length": "4612.0",
+            "Length Marker": "1.0",
+            "Volume": "0.15204",
+            "Join Status": "One or two joins disabled",
+            "Start Extension": "0.0",
+            "y Justification": "Origin",
+            "y Offset Value": "0.0",
+            "yz Justification": "Uniform",
+            "z Justification": "Top",
+            "z Offset Value": "0.0",
+            "End Extension": "0.0",
+            "Start Join Cutback": "0.0",
+            "Edited by": "",
+            "Workset": "Tragwerk",
+            "Comments": "",
+            "Category": "Structural Framing",
+            "Family": "BSH Träger - rechteckig: Holz 140 x 240",
+            "Family and Type": "BSH Träger - rechteckig: Holz 140 x 240",
+            "Type": "BSH Träger - rechteckig: Holz 140 x 240",
+            "Type Id": "BSH Träger - rechteckig: Holz 140 x 240",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Stick Symbol Location": "Center of Geometry",
+            "Structural Usage": "Other",
+            "Cut Length": "4525.0"
+        },
+        "Psets Object Type": {
+            "Data.Unternehmer": "Künzli",
+            "Dimensions.B": "140.0",
+            "Dimensions.H": "240.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Comments": "B/H=16/26cm",
+            "Identity Data.Type Name": "Holz 140 x 240",
+            "Identity Data.Workset": "Family  : Structural Framing : BSH Träger - rechteckig",
+            "Materials and Finishes.Structural Material": "Brettschichtholz C24",
+            "Other.Category": "Structural Framing",
+            "Other.Family Name": "BSH Träger - rechteckig",
+            "Structural.Section Shape": "31",
+            "Structural Analysis.Moment of Inertia strong axis": "0.00016128",
+            "Structural Analysis.Moment of Inertia weak axis": "5.488e-05",
+            "Structural Analysis.Perimeter": "760.0",
+            "Structural Analysis.Section Area": "0.0336",
+            "Structural Section Geometry.Height": "240.0",
+            "Structural Section Geometry.Width": "140.0"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

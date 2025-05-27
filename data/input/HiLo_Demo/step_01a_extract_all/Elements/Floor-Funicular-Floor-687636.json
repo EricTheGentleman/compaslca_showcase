@@ -1,0 +1,171 @@
+{
+    "Element Metadata": {
+        "Name": "Floor:Funicular Floor:687636",
+        "UID": "5438",
+        "GlobalId": "3PSzbSor5DzehfFtR_jj$X",
+        "Type": "IfcSlab",
+        "ObjectType": "Floor:Funicular Floor",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Floor:Funicular Floor",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Spachtelmasse Boden",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.01,
+                    "Thickness unit": "METRE"
+                },
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Beton, Ortbeton",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.35000000000000003,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked vertically, defining the element’s buildup."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.36,
+            "Width unit": "METRE",
+            "Gross Volume": 8.0793,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 8.0793,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 8.0793126851875,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 51.7475445625,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 5.22,
+            "Y": 0.36,
+            "Z": 5.22,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 9.8094,
+        "Real Volume to Bounding Box Volume Ratio": 0.824,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Height Offset From Level": "-115.0",
+            "Level": "Level: 01_Galerie",
+            "Area": "22.4425352366319",
+            "Core Thickness": "360.0",
+            "Elevation at Bottom": "2444.99999999991",
+            "Elevation at Bottom Core": "2444.99999999991",
+            "Elevation at Bottom Survey": "2444.99999999991",
+            "Elevation at Top": "2804.99999999991",
+            "Elevation at Top Core": "2804.99999999991",
+            "Elevation at Top Survey": "2804.99999999991",
+            "Perimeter": "19062.4280256728",
+            "Thickness": "360.0",
+            "Volume": "8.07931268518749",
+            "Edited by": "",
+            "Workset": "Tragwerk",
+            "Category": "Floors",
+            "Family": "Floor: Funicular Floor",
+            "Family and Type": "Floor: Funicular Floor",
+            "Type": "Floor: Funicular Floor",
+            "Type Id": "Floor: Funicular Floor",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Rebar Cover - Bottom Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Rebar Cover - Other Faces": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Rebar Cover - Top Face": "Rebar Cover Settings: Bewehrungsüberdeckung 1",
+            "Structural": "True"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "2.98857142857143",
+            "Analytical Properties.Thermal Mass": "49.1350243104",
+            "Analytical Properties.Thermal Resistance (R)": "0.334608030592734",
+            "Construction.Function": "Interior",
+            "Construction.Default Thickness": "360.0",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "8421504",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Floor Types",
+            "Identity Data.Cost": "150.0",
+            "Identity Data.Type Name": "Funicular Floor",
+            "Materials and Finishes.Structural Material": "Beton, Ortbeton",
+            "Other.Category": "Floors",
+            "Other.Family Name": "Floor"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

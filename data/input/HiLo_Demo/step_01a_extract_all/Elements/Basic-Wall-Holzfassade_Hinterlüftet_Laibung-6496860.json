@@ -1,0 +1,178 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Holzfassade_Hinterlüftet_Laibung:6496860",
+        "UID": "680652",
+        "GlobalId": "0OHMI7Bzz97Ro_l61LTo0P",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:Holzfassade_Hinterlüftet_Laibung",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:Holzfassade_Hinterlüftet_Laibung",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Holzschalung Vertikal, Nadelholz,  schwarz gestrichen",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.02,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, defining its thickness."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.02,
+            "Width unit": "METRE",
+            "Length": 0.3457,
+            "Length unit": "METRE",
+            "Height": 3.22,
+            "Height unit": "METRE",
+            "Gross Side Area": 1.1104,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 1.1104,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.0069,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.0222,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0218,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Clipping",
+            "Curve2D"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0217831926538,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 2.3396452913,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.35,
+            "Y": 0.02,
+            "Z": 3.22,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0225,
+        "Real Volume to Bounding Box Volume Ratio": 0.968,
+        "Face Count (tessellated element)": {
+            "Face Count": 28
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 48
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 66
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Top Constraint": "Level: 01_Galerie",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Base Constraint": "Level: 00_Eingang",
+            "Location Line": "Finish Face: Exterior",
+            "Base Offset": "-400.0",
+            "Top Offset": "-100.0",
+            "Unconnected Height": "3219.99999999991",
+            "Area": "1.11035256882107",
+            "Length": "345.704839298604",
+            "Volume": "0.0217831868418784",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: Holzfassade_Hinterlüftet_Laibung",
+            "Family and Type": "Basic Wall: Holzfassade_Hinterlüftet_Laibung",
+            "Type": "Basic Wall: Holzfassade_Hinterlüftet_Laibung",
+            "Type Id": "Basic Wall: Holzfassade_Hinterlüftet_Laibung",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Construction.Width": "20.0",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "12632256",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "Holzfassade_Hinterlüftet_Laibung",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": [
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "1GjZcyYVLBcx2z5iv5jRLu",
+                "OpeningType": "Not defined"
+            }
+        ],
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

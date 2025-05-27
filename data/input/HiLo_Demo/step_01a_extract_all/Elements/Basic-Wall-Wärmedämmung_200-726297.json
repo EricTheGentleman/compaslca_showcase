@@ -1,0 +1,183 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Wärmedämmung_200:726297",
+        "UID": "7403",
+        "GlobalId": "2gXJHplM169PSBlXqlAwef",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:Wärmedämmung_200",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:Wärmedämmung_200",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Wärmedämmung Mineralwolle, 0.035 W/mK",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.1,
+                    "Thickness unit": "METRE"
+                },
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Wärmedämmung Mineralwolle, 0.035 W/mK",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.1,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, growing in the opposite direction from its reference surface."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.2,
+            "Width unit": "METRE",
+            "Length": 5.6625,
+            "Length unit": "METRE",
+            "Height": 1.69,
+            "Height unit": "METRE",
+            "Gross Side Area": 9.5618,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 9.5618,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 1.1281,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 1.9124,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 1.905,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Clipping",
+            "Curve2D"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 1.9065464183565,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 22.005686178599998,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 5.66,
+            "Y": 0.2,
+            "Z": 1.69,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 1.9131,
+        "Real Volume to Bounding Box Volume Ratio": 0.997,
+        "Face Count (tessellated element)": {
+            "Face Count": 20
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 36
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 48
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Location Line": "Core Face: Exterior",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Base Constraint": "Level: 01_Galerie",
+            "Base Offset": "-300.0",
+            "Top Constraint": "Level: 01_Brüstung",
+            "Top Offset": "-540.000000000002",
+            "Unconnected Height": "1690.0",
+            "Area": "9.56179081457565",
+            "Length": "5498.31660937365",
+            "Volume": "1.90498239121956",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: Wärmedämmung_200",
+            "Family and Type": "Basic Wall: Wärmedämmung_200",
+            "Type": "Basic Wall: Wärmedämmung_200",
+            "Type Id": "Basic Wall: Wärmedämmung_200",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Analytical Properties.Heat Transfer Coefficient (U)": "0.17",
+            "Analytical Properties.Thermal Mass": "0.62821035648",
+            "Analytical Properties.Thermal Resistance (R)": "5.88235294117647",
+            "Construction.Function": "Exterior",
+            "Construction.Width": "200.0",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Exterior",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "12632256",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "Wärmedämmung_200",
+            "Identity Data.Workset": "Wall Types",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "01_Galerie",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "01_Galerie",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

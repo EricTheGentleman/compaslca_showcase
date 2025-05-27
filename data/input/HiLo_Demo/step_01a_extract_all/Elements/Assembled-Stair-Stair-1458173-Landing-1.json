@@ -1,0 +1,119 @@
+{
+    "Element Metadata": {
+        "Name": "Assembled Stair:Stair:1458173 Landing 1",
+        "UID": "36337",
+        "GlobalId": "0AUqYOipD7ohrIsOnF3NOk",
+        "Type": "IfcSlab",
+        "ObjectType": "Non-Monolithic Landing:Podest - nicht massiv",
+        "Classification": "Not defined",
+        "Decomposes": {
+            "Name": "Assembled Stair:Stair:1458173",
+            "IfcEntity": "IfcStair",
+            "GlobalId": "0AUqYOipD7ohrIsOnF3GW9"
+        },
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "Stahl",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.01,
+            "Width unit": "METRE",
+            "Gross Volume": 0.0022,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0022,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "GeometricSet",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.002208,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.4654,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.96,
+            "Y": 0.23,
+            "Z": 0.01,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0022,
+        "Real Volume to Bounding Box Volume Ratio": 1.004,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "N"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Relative Height": "2930.99999999991",
+            "Total Thickness": "10.0",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Landings",
+            "Family": "Non-Monolithic Landing: Podest - nicht massiv",
+            "Family and Type": "Non-Monolithic Landing: Podest - nicht massiv",
+            "Type": "Non-Monolithic Landing: Podest - nicht massiv",
+            "Type Id": "Non-Monolithic Landing: Podest - nicht massiv",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Stair Types",
+            "Identity Data.Type Name": "Podest - nicht massiv",
+            "Other.Category": "Landings",
+            "Other.Family Name": "Non-Monolithic Landing",
+            "Treads.Same as Run": "True"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "Unknown",
+                "type": "Unknown"
+            }
+        ]
+    }
+}

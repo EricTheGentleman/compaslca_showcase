@@ -1,0 +1,108 @@
+{
+    "Element Metadata": {
+        "Name": "1072_210621_HiLo_Aussengeländer West_mk:1072_210621_HiLo_Aussengeländer West_mk:7935201",
+        "UID": "1118030",
+        "GlobalId": "2P1Lw8yun3pBsrFxTc_j0l",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "1072_210621_HiLo_Aussengeländer West_mk:1072_210621_HiLo_Aussengeländer West_mk",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0090857141966,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 1.6688428709,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.07,
+            "Y": 0.96,
+            "Z": 3.15,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.2117,
+        "Real Volume to Bounding Box Volume Ratio": 0.043,
+        "Face Count (tessellated element)": {
+            "Face Count": 9376
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 9580
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 18854
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Generic Models",
+            "Family": "1072_210621_HiLo_Aussengeländer West_mk: 1072_210621_HiLo_Aussengeländer West_mk",
+            "Family and Type": "1072_210621_HiLo_Aussengeländer West_mk: 1072_210621_HiLo_Aussengeländer West_mk",
+            "Type": "1072_210621_HiLo_Aussengeländer West_mk: 1072_210621_HiLo_Aussengeländer West_mk",
+            "Type Id": "1072_210621_HiLo_Aussengeländer West_mk: 1072_210621_HiLo_Aussengeländer West_mk",
+            "Phase Created": "Zu Bauen",
+            "Rebar Cover": "Rebar Cover Settings: Bewehrungsüberdeckung 1"
+        },
+        "Psets Object Type": {
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Direct Shapes",
+            "Identity Data.Type Name": "1072_210621_HiLo_Aussengeländer West_mk",
+            "Other.Category": "Generic Models",
+            "Other.Family Name": "1072_210621_HiLo_Aussengeländer West_mk"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

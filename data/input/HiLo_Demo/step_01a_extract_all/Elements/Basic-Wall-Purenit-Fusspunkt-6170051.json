@@ -1,0 +1,172 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Purenit Fusspunkt:6170051",
+        "UID": "633603",
+        "GlobalId": "2B05zKZrTDzh8p$jP05$Zd",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:Purenit Fusspunkt",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:Purenit Fusspunkt",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Purenit",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.025,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, defining its thickness."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.025,
+            "Width unit": "METRE",
+            "Length": 0.135,
+            "Length unit": "METRE",
+            "Height": 0.54,
+            "Height unit": "METRE",
+            "Gross Side Area": 0.0729,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 0.0729,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.0034,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.0018,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0018,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Curve2D",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0018223275245999998,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.1795355632,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.13,
+            "Y": 0.54,
+            "Z": 0.03,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0021,
+        "Real Volume to Bounding Box Volume Ratio": 0.868,
+        "Face Count (tessellated element)": {
+            "Face Count": 12
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 24
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 30
+        },
+        "Primary Object Axis (Cardinal Direction)": "Undefined"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Base Constraint": "Level: 00_Betonplatte",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Base Offset": "0.0",
+            "Cross-Section": "Vertical",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Top Constraint": "Level: 00_Eingang",
+            "Location Line": "Core Face: Interior",
+            "Top Offset": "0.0",
+            "Room Bounding": "False",
+            "Unconnected Height": "539.999999999999",
+            "Area": "0.0728931009825581",
+            "Length": "147.487224041774",
+            "Volume": "0.00182232752456393",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Walls",
+            "Family": "Basic Wall: Purenit Fusspunkt",
+            "Family and Type": "Basic Wall: Purenit Fusspunkt",
+            "Type": "Basic Wall: Purenit Fusspunkt",
+            "Type Id": "Basic Wall: Purenit Fusspunkt",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Construction.Width": "25.0",
+            "Data.Unternehmer": "Künzli / Kaufmann",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "12632256",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Type Name": "Purenit Fusspunkt",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Betonplatte",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Betonplatte",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

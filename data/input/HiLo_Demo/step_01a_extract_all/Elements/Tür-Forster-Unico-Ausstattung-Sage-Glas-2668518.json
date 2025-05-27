@@ -1,0 +1,124 @@
+{
+    "Element Metadata": {
+        "Name": "Tür Forster Unico:Ausstattung Sage Glas:2668518",
+        "UID": "66256",
+        "GlobalId": "1a1$QVmKz8nRXZVkIMOOBt",
+        "Type": "IfcWindow",
+        "ObjectType": "Tür Forster Unico:Ausstattung Sage Glas",
+        "Classification": "Not defined",
+        "Decomposes": {
+            "Name": "Curtain Wall:Fassade 250:2668447",
+            "IfcEntity": "IfcCurtainWall",
+            "GlobalId": "1a1$QVmKz8nRXZVkIMOOAE"
+        },
+        "Is Decomposed By": []
+    },
+    "Element Material Data": "Not defined",
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 1.29,
+            "Width unit": "METRE",
+            "Height": 2.22,
+            "Height unit": "METRE"
+        },
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.128862288,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 7.235444,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 1.24,
+            "Y": 0.07,
+            "Z": 2.17,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.1884,
+        "Real Volume to Bounding Box Volume Ratio": 0.684,
+        "Face Count (tessellated element)": {
+            "Face Count": 72
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 120
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 168
+        },
+        "Primary Object Axis (Cardinal Direction)": "W"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Level": "Level: 00_Eingang",
+            "Area": "2.86380000000005",
+            "Height": "2220.00000000005",
+            "Volume": "0.128862288000002",
+            "Width": "1289.99999999999",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Mark": "34",
+            "Category": "Windows",
+            "Host Id": "Curtain Wall: Fassade 250",
+            "Family": "Tür Forster Unico: Ausstattung Sage Glas",
+            "Family and Type": "Tür Forster Unico: Ausstattung Sage Glas",
+            "Type": "Tür Forster Unico: Ausstattung Sage Glas",
+            "Type Id": "Tür Forster Unico: Ausstattung Sage Glas",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Define Thermal Properties by": "Schematic Type",
+            "Analytical Properties.Analytic Construction": "<None",
+            "Data.Unternehmer": "Pletscher",
+            "Dimensions.Offset": "9.0",
+            "Dimensions.Offset_Profil": "25.0",
+            "Dimensions.Profil_Ausse_Tiefe": "70.0",
+            "Dimensions.Profil_Aussen_Breite": "51.0",
+            "Dimensions.Profil_Innen_Breite": "81.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "23.30.20.00",
+            "Identity Data.OmniClass Title": "Windows",
+            "Identity Data.Type Mark": "27",
+            "Identity Data.Type Name": "Ausstattung Sage Glas",
+            "Identity Data.Workset": "Family  : Windows : Tür Forster Unico",
+            "Materials and Finishes.Material_Glas": "Glas SageGlassClimatop",
+            "Other.Category": "Windows",
+            "Other.Family Name": "Tür Forster Unico"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "Unknown",
+                "type": "Unknown"
+            }
+        ]
+    }
+}

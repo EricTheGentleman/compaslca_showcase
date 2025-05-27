@@ -1,0 +1,130 @@
+{
+    "Element Metadata": {
+        "Name": "Rohranschluss_Technikschnttelle_Nest:E-Grauwasser leicht:6271766",
+        "UID": "662417",
+        "GlobalId": "1Et2c94TXFAwSKPeylnBH8",
+        "Type": "IfcBuildingElementProxy",
+        "ObjectType": "Rohranschluss_Technikschnttelle_Nest:E-Grauwasser leicht",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterial",
+            "Material Name": "3D-Schnittmaterial",
+            "Material Description": "Unknown",
+            "Material Category": "Unknown",
+            "Thickness": "Unknown",
+            "Thickness unit": "Unknown"
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {},
+        "Geometric Representation": [
+            "MappedRepresentation"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0007201822495999999,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 0.0447315502,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.11,
+            "Y": 0.09,
+            "Z": 0.09,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.0009,
+        "Real Volume to Bounding Box Volume Ratio": 0.8,
+        "Face Count (tessellated element)": {
+            "Face Count": 2664
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 2670
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 5331
+        },
+        "Primary Object Axis (Cardinal Direction)": "E"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Moves With Nearby Elements": "False",
+            "Level": "Level: 00_Betonplatte",
+            "Elevation from Level": "245.298760000156",
+            "Host": "Level : 00_Betonplatte",
+            "Offset from Host": "245.298760000156",
+            "Area": "0.0223649245336298",
+            "Depth": "113.205496254521",
+            "Volume": "0.000720148067306227",
+            "Edited by": "",
+            "Workset": "Architecture",
+            "Category": "Generic Models",
+            "Family": "Rohranschluss_Technikschnttelle_Nest: E-Grauwasser leicht",
+            "Family and Type": "Rohranschluss_Technikschnttelle_Nest: E-Grauwasser leicht",
+            "Type": "Rohranschluss_Technikschnttelle_Nest: E-Grauwasser leicht",
+            "Type Id": "Rohranschluss_Technikschnttelle_Nest: E-Grauwasser leicht",
+            "Phase Created": "Zu Bauen"
+        },
+        "Psets Object Type": {
+            "Constraints.Default Elevation": "0.0",
+            "Dimensions.Diameter": "90.0",
+            "Dimensions.Radius": "45.0",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Code Name": "",
+            "Identity Data.OmniClass Number": "",
+            "Identity Data.OmniClass Title": "",
+            "Identity Data.Workset": "Family  : Generic Models : Rohranschluss_Technikschnttelle_Nest",
+            "Identity Data.Type Name": "E-Grauwasser leicht",
+            "Other.Category": "Generic Models",
+            "Other.Family Name": "Rohranschluss_Technikschnttelle_Nest"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": null,
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Betonplatte",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Betonplatte",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}

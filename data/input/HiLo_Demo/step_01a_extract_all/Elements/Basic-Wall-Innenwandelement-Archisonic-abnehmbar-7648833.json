@@ -1,0 +1,189 @@
+{
+    "Element Metadata": {
+        "Name": "Basic Wall:Innenwandelement Archisonic abnehmbar:7648833",
+        "UID": "1106795",
+        "GlobalId": "3a_AAgCiPC4Pn3ptZJGC8f",
+        "Type": "IfcWallStandardCase",
+        "ObjectType": "Basic Wall:Innenwandelement Archisonic abnehmbar",
+        "Classification": "Not defined",
+        "Decomposes": {},
+        "Is Decomposed By": []
+    },
+    "Element Material Data": [
+        {
+            "IfcEntity": "IfcMaterialLayerSetUsage",
+            "Layer Set Name": "Basic Wall:Innenwandelement Archisonic abnehmbar",
+            "Layer Set Description": "Unknown",
+            "Layer Set Total Thickness": "Unknown",
+            "Layers": [
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "Archisonic Charcoal",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.012,
+                    "Thickness unit": "METRE"
+                },
+                {
+                    "IfcEntity": "IfcMaterialLayer",
+                    "Material Name": "MDF",
+                    "Description": "Unknown",
+                    "Category": "Unknown",
+                    "Thickness": 0.012,
+                    "Thickness unit": "METRE"
+                }
+            ],
+            "Layer Direction and Growth description": "Layers are stacked perpendicular to the element's length, defining its thickness."
+        }
+    ],
+    "Element Geometry Data": {
+        "Quantities (IFC)": {
+            "Width": 0.024,
+            "Width unit": "METRE",
+            "Length": 0.5908,
+            "Length unit": "METRE",
+            "Height": 2.199,
+            "Height unit": "METRE",
+            "Gross Side Area": 1.2991,
+            "Gross Side Area unit": "SQUARE_METRE",
+            "Net Side Area": 1.2591,
+            "Net Side Area unit": "SQUARE_METRE",
+            "Gross Footprint Area": 0.0142,
+            "Gross Footprint Area unit": "SQUARE_METRE",
+            "Gross Volume": 0.0312,
+            "Gross Volume unit": "CUBIC_METRE",
+            "Net Volume": 0.0302,
+            "Net Volume unit": "CUBIC_METRE"
+        },
+        "Geometric Representation": [
+            "Curve2D",
+            "SweptSolid"
+        ],
+        "Quantities (COMPAS)": {
+            "Net Volume": 0.0302179348954,
+            "Net Volume unit": "CUBIC_METRE",
+            "Entire Surface Area": 2.6760697078,
+            "Entire Surface Area unit": "SQUARE_METRE"
+        },
+        "Bounding Box Dimensions (OBB - local frame)": {
+            "X": 0.02,
+            "Y": 0.59,
+            "Z": 2.2,
+            "Bounding Box Dimensions Unit": "METRE"
+        },
+        "Bounding Box Volume": 0.026,
+        "Real Volume to Bounding Box Volume Ratio": 1.162,
+        "Face Count (tessellated element)": {
+            "Face Count": 32
+        },
+        "Vertex Count (tessellated element)": {
+            "Vertex Count": 48
+        },
+        "Edge Count (tessellated element)": {
+            "Edge Count": 72
+        },
+        "Primary Object Axis (Cardinal Direction)": "N"
+    },
+    "Element Property Sets": {
+        "Psets Element": {
+            "Related to Mass": "False",
+            "Room Bounding": "True",
+            "Base Extension Distance": "0.0",
+            "Base is Attached": "False",
+            "Cross-Section": "Vertical",
+            "Location Line": "Core Face: Exterior",
+            "Top Extension Distance": "0.0",
+            "Top is Attached": "False",
+            "Base Constraint": "Level: 00_Eingang",
+            "Top Constraint": "Level: 00_Eingang",
+            "Base Offset": "6.0",
+            "Top Offset": "2205.0",
+            "Unconnected Height": "2199.0",
+            "Area": "1.2590806206422",
+            "Length": "590.759718345703",
+            "Volume": "0.0302179348954127",
+            "Edited by": "",
+            "Workset": "Innenausbau",
+            "Category": "Walls",
+            "Family": "Basic Wall: Innenwandelement Archisonic abnehmbar",
+            "Family and Type": "Basic Wall: Innenwandelement Archisonic abnehmbar",
+            "Type": "Basic Wall: Innenwandelement Archisonic abnehmbar",
+            "Type Id": "Basic Wall: Innenwandelement Archisonic abnehmbar",
+            "Phase Created": "Zu Bauen",
+            "Enable Analytical Model": "False",
+            "Structural": "False",
+            "Structural Usage": "Non-bearing"
+        },
+        "Psets Object Type": {
+            "Analytical Properties.Roughness": "3",
+            "Analytical Properties.Absorptance": "0.7",
+            "Construction.Function": "Exterior",
+            "Construction.Wrapping at Ends": "None",
+            "Construction.Width": "24.0",
+            "Construction.Wrapping at Inserts": "Do not wrap",
+            "Data.Unternehmer": "Künzli",
+            "Graphics.Coarse Scale Fill Pattern": "<Solid fill",
+            "Graphics.Coarse Scale Fill Color": "12632256",
+            "Identity Data.Edited by": "",
+            "Identity Data.Assembly Code": "",
+            "Identity Data.Assembly Description": "",
+            "Identity Data.Workset": "Wall Types",
+            "Identity Data.Cost": "0.0",
+            "Identity Data.Description": "TYP B1",
+            "Identity Data.Model": "",
+            "Identity Data.Type Name": "Innenwandelement Archisonic abnehmbar",
+            "Materials and Finishes.Structural Material": "MDF",
+            "Other.Category": "Walls",
+            "Other.Family Name": "Basic Wall"
+        }
+    },
+    "Element Relationships": {
+        "Nests": null,
+        "Is Nested By": null,
+        "Covers": null,
+        "Is Covered By": null,
+        "Has Openings": [
+            {
+                "IfcEntity": "IfcOpeningElement",
+                "GlobalId": "2xvVPd0LzDohLLAuF5Kn3E",
+                "OpeningType": "Not defined"
+            }
+        ],
+        "Assigned Groups": null
+    },
+    "Element Location": {
+        "Storeys Map": {
+            "00_Betonplatte": {
+                "Elevation": -0.54,
+                "Unit": "meters"
+            },
+            "00_Eingang": {
+                "Elevation": 0.0,
+                "Unit": "meters"
+            },
+            "01_Galerie": {
+                "Elevation": 2.92,
+                "Unit": "meters"
+            }
+        },
+        "Element Located in Storey": "00_Eingang",
+        "Spatial Relationship": [
+            {
+                "name": "1072",
+                "type": "IfcProject"
+            },
+            {
+                "name": "Default",
+                "type": "IfcSite"
+            },
+            {
+                "name": "",
+                "type": "IfcBuilding"
+            },
+            {
+                "name": "00_Eingang",
+                "type": "IfcBuildingStorey"
+            }
+        ]
+    }
+}
