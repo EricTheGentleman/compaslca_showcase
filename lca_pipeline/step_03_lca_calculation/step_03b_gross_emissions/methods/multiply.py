@@ -45,19 +45,28 @@ def determine_multiplier(material, volume, area):
         return 1
 
 
-def process_material(material, volume, area, keys):
+def process_material(material, volume, area, keys, is_oekobaudat=False):
     multiplier = determine_multiplier(material, volume, area)
     if multiplier is None:
-        return None  # Mark material to be skipped
+        return None  # Skip material
+
+    bezugsgroesse = 1
+    if is_oekobaudat:
+        try:
+            bezugsgroesse = float(material.get("Bezugsgroesse", 1))
+        except ValueError:
+            bezugsgroesse = 1
 
     for key in keys:
         if key in material:
             try:
                 value = float(material[key])
-                material[key] = str(round(value * multiplier, 4))
+                scaled = (value * multiplier) / bezugsgroesse
+                material[key] = str(round(scaled, 4))
             except ValueError:
                 pass
     return material
+
 
 
 
@@ -84,10 +93,15 @@ def process_file(input_path, output_path, quantity_lookup):
         return
 
     materials = data.pop(key, [])
+    is_oekobaudat = "OEKOBAUDAT" in key
+
     processed = [
-        m for m in (process_material(mat, volume, area, emission_keys) for mat in materials)
-        if m is not None
+        m for m in (
+            process_material(mat, volume, area, emission_keys, is_oekobaudat=is_oekobaudat)
+            for mat in materials
+        ) if m is not None
     ]
+
 
 
     # Build new ordered dictionary to control output key order
