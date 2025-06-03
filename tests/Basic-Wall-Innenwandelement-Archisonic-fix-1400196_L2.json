@@ -1,0 +1,40 @@
+{
+    "Target Layer of Material Inference": {
+        "Material Name": "MDF",
+        "Thickness": 0.012,
+        "Thickness Unit": "METRE",
+        "Layer Number": 2
+    },
+    "Building Element Context": {
+        "Element Metadata": {
+            "Name": "Innenwandelement Archisonic fix:1400196",
+            "Type": "IfcWallStandardCase",
+            "ObjectType": "Innenwandelement Archisonic fix"
+        },
+        "Other Material Layers": [
+            {
+                "Material Name": "Archisonic Charcoal",
+                "Thickness": 0.012,
+                "Thickness Unit": "METRE",
+                "Layer Number": 1
+            }
+        ],
+        "Element Property Sets": {
+            "Psets Element": {
+                "Related to Mass": "False",
+                "Room Bounding": "True",
+                "Location Line": "Core Face: Exterior",
+                "Base Constraint": "Level: 00_Eingang",
+                "Area": "0.4286",
+                "Length": "196.4376",
+                "Volume": "0.0103",
+                "Workset": "Innenausbau",
+                "Category": "Walls",
+                "Family": "Innenwandelement Archisonic fix",
+                "Phase Created": "Zu Bauen",
+                "Structural": "False",
+                "Structural Usage": "Non-bearing"
+            }
+        }
+    }
+}
