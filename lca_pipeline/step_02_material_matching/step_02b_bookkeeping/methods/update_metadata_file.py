@@ -14,6 +14,8 @@ def update_metadata(metadata_input_path, directories_to_scan, metadata_output_pa
     totals = {key: 0 for key in keys_to_sum}
     category_count = 0
     material_count = 0
+    category_negative_matches = 0
+    material_negative_matches = 0
 
     for directory in directories_to_scan:
         dir_path = Path(directory)
@@ -21,18 +23,24 @@ def update_metadata(metadata_input_path, directories_to_scan, metadata_output_pa
             with open(file, "r", encoding="utf-8") as f:
                 try:
                     data = json.load(f)
-                    
+
                     # Sum metrics
                     for key in keys_to_sum:
                         totals[key] += data.get(key, 0)
 
-                    # Count matched types
+                    # Count matched types and negative matches
                     for step in data.get("inference_steps", []):
                         matched_type = step.get("matched_type", "").lower()
+                        message = step.get("message", "").lower()
+
                         if matched_type == "category":
                             category_count += 1
+                            if message == "no match found":
+                                category_negative_matches += 1
                         elif matched_type == "material":
                             material_count += 1
+                            if message == "no match found":
+                                material_negative_matches += 1
 
                 except json.JSONDecodeError:
                     print(f"Warning: Skipping invalid JSON file: {file}")
@@ -50,7 +58,7 @@ def update_metadata(metadata_input_path, directories_to_scan, metadata_output_pa
     category_settings = config.get("category_prompt_variables", {})
     material_settings = config.get("material_prompt_variables", {})
     database_settings = config.get("database_config", {})
-    
+
     # Extract category config values
     category_inference_config = config.get("category_inference_config", {})
     category_settings["company"] = category_inference_config.get("company", "")
@@ -71,14 +79,15 @@ def update_metadata(metadata_input_path, directories_to_scan, metadata_output_pa
         "LCA database used for inference": database_used,
         "Tokens and Cost for Entire Inference Process": totals,
         "Category Inference Counts": category_count,
+        "Category Negative Matches": category_negative_matches,
         "Material Inference Counts": material_count,
+        "Material Negative Matches": material_negative_matches,
         "Category Prompt Settings": category_settings,
         "Material Prompt Settings": material_settings
     }
 
     # Add to existing metadata
     existing_data["Module 02: LLM Inference"] = module_02a_data
-
 
     # Save output
     metadata_output_path = Path(metadata_output_path)
