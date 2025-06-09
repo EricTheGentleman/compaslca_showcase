@@ -16,6 +16,8 @@ def update_metadata(metadata_input_path, directories_to_scan, metadata_output_pa
     material_count = 0
     category_negative_matches = 0
     material_negative_matches = 0
+    total_material_matches = 0
+    successful_material_matches_count = 0
 
     for directory in directories_to_scan:
         dir_path = Path(directory)
@@ -28,7 +30,6 @@ def update_metadata(metadata_input_path, directories_to_scan, metadata_output_pa
                     for key in keys_to_sum:
                         totals[key] += data.get(key, 0)
 
-                    # Count matched types and negative matches
                     for step in data.get("inference_steps", []):
                         matched_type = step.get("matched_type", "").lower()
                         message = step.get("message", "").lower()
@@ -37,18 +38,30 @@ def update_metadata(metadata_input_path, directories_to_scan, metadata_output_pa
                             category_count += 1
                             if message == "no match found":
                                 category_negative_matches += 1
+
                         elif matched_type == "material":
                             material_count += 1
                             if message == "no match found":
                                 material_negative_matches += 1
+                            else:
+                                matched_names = step.get("matched_name", [])
+                                if isinstance(matched_names, list) and matched_names:
+                                    total_material_matches += len(matched_names)
+                                    successful_material_matches_count += 1
 
                 except json.JSONDecodeError:
                     print(f"Warning: Skipping invalid JSON file: {file}")
 
-    # Round totals to 3 decimal places with clean float formatting
+    # Round totals
     for key in totals:
         value = round(totals[key], 3)
         totals[key] = float(f"{value:.3f}")
+
+    # Compute average
+    if successful_material_matches_count > 0:
+        avg_matched_materials = round(total_material_matches / successful_material_matches_count, 3)
+    else:
+        avg_matched_materials = 0.0
 
     # Load preexisting metadata
     with open(metadata_input_path, "r", encoding="utf-8") as f:
@@ -59,22 +72,18 @@ def update_metadata(metadata_input_path, directories_to_scan, metadata_output_pa
     material_settings = config.get("material_prompt_variables", {})
     database_settings = config.get("database_config", {})
 
-    # Extract category config values
     category_inference_config = config.get("category_inference_config", {})
     category_settings["company"] = category_inference_config.get("company", "")
     category_settings["model"] = category_inference_config.get("model", "")
     category_settings["temperature"] = category_inference_config.get("temperature", "")
 
-    # Extract material config values
     material_inference_config = config.get("material_inference_config", {})
     material_settings["company"] = material_inference_config.get("company", "")
     material_settings["model"] = material_inference_config.get("model", "")
     material_settings["temperature"] = material_inference_config.get("temperature", "")
 
-    # Extract database config value
     database_used = database_settings.get("database", "")
 
-    # Create nested module dictionary
     module_02a_data = {
         "LCA database used for inference": database_used,
         "Tokens and Cost for Entire Inference Process": totals,
@@ -82,14 +91,13 @@ def update_metadata(metadata_input_path, directories_to_scan, metadata_output_pa
         "Category Negative Matches": category_negative_matches,
         "Material Inference Counts": material_count,
         "Material Negative Matches": material_negative_matches,
+        "Average Number of Matched Material Entries per Success": avg_matched_materials,
         "Category Prompt Settings": category_settings,
         "Material Prompt Settings": material_settings
     }
 
-    # Add to existing metadata
     existing_data["Module 02: LLM Inference"] = module_02a_data
 
-    # Save output
     metadata_output_path = Path(metadata_output_path)
     metadata_output_path.mkdir(parents=True, exist_ok=True)
     output_file = metadata_output_path / "metadata_step_02b.json"
