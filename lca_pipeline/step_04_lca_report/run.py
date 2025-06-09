@@ -2,6 +2,7 @@ from pathlib import Path
 from methods.utils import load_yaml_config, copy_boq_to_report, copy_metadata_to_report
 from methods.compile_jsons import compile_elements, compile_target_layers
 from methods.compile_positives_negatives import collect_match_status
+from methods.emissions_overview import generate_emission_totals
 from methods.plots import plot_indicators
 
 def make_path(*parts):
@@ -19,7 +20,8 @@ output_base = make_path("data", "output", "report", db)
 
 paths = {
     "boq_csv": pipeline_base / "step_03b_gross_emissions" / db / "BoQ.csv",
-    
+    "input_metadata": make_path("data", "pipeline", "step_02_material_matching", "step_02b_bookkeeping", db, "metadata_step_02b.json"),
+
     "input_elements": {
         "gross_emissions": pipeline_base / "step_03b_gross_emissions" / db / "Elements",
         "specific_indicators": pipeline_base / "step_03a_specific_indicators" / db / "Elements",
@@ -56,13 +58,19 @@ def create_report():
     # Copy BoQ
     copy_boq_to_report(paths["boq_csv"], paths["output_report"])
 
-    # Copy and annotate inference metadata
-    copy_metadata_to_report(config_database, paths["output_metadata"])
-
     # Generate plots
     plot_indicators(paths["boq_csv"], paths["output_report"] / "plots", config_database)
 
+    # Annotate metadata with LCA calculation totals
+    copy_metadata_to_report(config_database, paths["output_metadata"])
 
+    generate_emission_totals(
+        csv_file=paths["boq_csv"],
+        database_config=config_database,
+        output_path=paths["output_report"]
+    )
+
+    
 if __name__ == "__main__":
     create_report()
     print(f"LCA report generated successfully in {paths['output_report']}.")

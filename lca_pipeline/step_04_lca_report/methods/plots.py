@@ -62,7 +62,7 @@ def plot_indicators(csv_path, output_dir, database_config):
             continue
 
         # Error
-        temp_df["error"] = (temp_df[max_col] - temp_df[min_col]) / 2
+        temp_df["error"] = (temp_df[[max_col, min_col]].max(axis=1) - temp_df[[max_col, min_col]].min(axis=1)) / 2
 
         # Sort
         temp_df = temp_df.sort_values(by=mean_col, ascending=False).reset_index(drop=True)
