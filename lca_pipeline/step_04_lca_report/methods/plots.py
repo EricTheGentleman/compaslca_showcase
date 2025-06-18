@@ -116,3 +116,82 @@ def plot_indicators(csv_path, output_dir, database_config):
         output_file = output_dir / f"{safe_name}_plot.png"
         plt.savefig(output_file, dpi=300)
         plt.close()
+
+
+
+def plot_total_gwp_individual(csv_path, output_dir, database_config):
+
+    # Load data
+    df = pd.read_csv(csv_path, na_values=["not matched", "not available", ""])
+
+    # Configuration
+    if database_config.lower() == "kbob":
+        indicators = [
+            "Global Warming Potential Manufacturing [kgCO2-eqv]",
+            "Global Warming Potential Disposal [kgCO2-eqv]",
+            "Global Warming Potential Total [kgCO2-eqv]",
+        ]
+        base_color = "#f5c396"
+        total_color = "#db8c2e"
+        db_label = "KBOB"
+    elif database_config.lower() == "oekobaudat":
+        indicators = [
+            "GWPtotal (A1-A3)",
+            "GWPtotal (A4)",
+            "GWPtotal (A5)",
+            "GWPtotal (C1)",
+            "GWPtotal (C2)",
+            "GWPtotal (C3)",
+            "GWPtotal (C4)",
+            "GWPtotal"
+        ]
+        base_color = "#e1d3f9"
+        total_color = "#c3a6f3"
+        db_label = "Oekobaudat"
+    else:
+        raise ValueError("database_config must be either 'kbob' or 'oekobaudat'")
+
+    # Prepare data
+    indicators_present = []
+    means = []
+    errors = []
+    colors = []
+
+    for ind in indicators:
+        min_col, mean_col, max_col = f"{ind} (min)", f"{ind} (mean)", f"{ind} (max)"
+        if all(col in df.columns for col in [min_col, mean_col, max_col]):
+            mean_val = df[mean_col].sum()
+            diffs = df[[max_col, min_col]].dropna()
+            error_val = ((diffs[max_col] - diffs[min_col]) / 2).clip(lower=0).sum()
+
+            indicators_present.append(ind)
+            means.append(mean_val)
+            errors.append(error_val)
+            colors.append(total_color if "Total" in ind or ind == "GWPtotal" else base_color)
+        else:
+            print(f"Missing columns for indicator: {ind}")
+
+    # Plot
+    fig, ax = plt.subplots(figsize=(8, 5))
+
+    x_pos = list(range(len(indicators_present)))
+    ax.bar(x_pos, means, yerr=errors, capsize=4, color=colors, edgecolor='none')
+
+    ax.set_xticks(x_pos)
+    ax.set_xticklabels(indicators_present, rotation=45, ha='right', fontsize=8)
+
+    ax.set_ylabel("Total GWP [kgCO2-eqv]", fontsize=10)
+    ax.set_title(f"Total GWP – {db_label}", fontsize=12)
+    ax.set_axisbelow(True)
+    ax.yaxis.grid(True, linestyle='-', linewidth=0.5, alpha=0.4)
+
+    plt.tight_layout()
+
+    # Save
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    filename_base = f"GWP_total_{db_label}"
+    png_path = output_dir / f"{filename_base}.png"
+
+    plt.savefig(png_path, dpi=300)
+    plt.close()

@@ -3,7 +3,7 @@ from methods.utils import load_yaml_config, copy_boq_to_report, copy_metadata_to
 from methods.compile_jsons import compile_elements, compile_target_layers
 from methods.compile_positives_negatives import collect_match_status
 from methods.emissions_overview import generate_emission_totals
-from methods.plots import plot_indicators
+from methods.plots import plot_indicators, plot_total_gwp_individual
 
 def make_path(*parts):
     return Path(*parts)
@@ -59,7 +59,8 @@ def create_report():
     copy_boq_to_report(paths["boq_csv"], paths["output_report"])
 
     # Generate plots
-    plot_indicators(paths["boq_csv"], paths["output_report"] / "plots", config_database)
+    plot_indicators(paths["boq_csv"], paths["output_report"] / "plots_elements", config_database)
+    plot_total_gwp_individual(paths["boq_csv"], paths["output_report"] / "plots_total", config_database)
 
     # Annotate metadata with LCA calculation totals
     copy_metadata_to_report(config_database, paths["output_metadata"])
