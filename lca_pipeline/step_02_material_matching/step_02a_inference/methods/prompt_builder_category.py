@@ -57,9 +57,10 @@ def build_category_prompt(bim_element, category_entries, mode, config):
             f"  1. The first input describes {descriptor_1}.",
             "  2. The second input file contains a list of 'Categories' from an LCA database.",
             f"- Identify the most accurate category for the {descriptor_2} from the first file.",
+            "- In general, if a material name is available, then prioritize matching the category based on the material name, rather than something else.",
             f"- You must match a category where you anticipate finding viable material entries for the {descriptor_2}.",
-            "- If there is no exact semantic match, find a reasonable approximation!"
-            "- If there is no material descriptor, base your decision on **all other relevant contextual clues** in the first input (e.g., element name, element type, psets)."
+            f"- If the {descriptor_2} cannot be clearly classified, assign an empty list.",
+            "- If there is no material name, base your decision on **all other relevant contextual clues** in the first input (e.g., element name, element type, psets)."
         ]
         # Construct static lines
         static_lines_2 = [
@@ -115,10 +116,11 @@ def build_category_prompt(bim_element, category_entries, mode, config):
             f"  1. Die erste Eingabe beschreibt {descriptor_1}.",
             "  2. Die zweite Eingabe beschreibt eine Liste von Kategorien von einer LCA Datenbank.",
             f"- Identifiziere die genaueste Kategorie für {descriptor_2} aus der ersten Datei.",
+            "- Generell gilt: Wenn ein Materialname verfügbar ist, dann priorisiere die Kategoriezuordnung basierend auf dem Materialnamen.",
             f"- Du musst eine Kategorie auswählen, bei der du passende Materialeinträge für {descriptor_2} erwartest.",
-            "- Die Kategorie muss nicht semantisch perfekt sein. Eine Annäherung ist auch akzeptabel."
             "- Wenn kein Materialname vorhanden ist, dann basiere deine Entscheidungen auf **allen anderen relevanten Kontextinformationen** aus der ersten Eingabe (z.B. Elementname, Elementtyp, Psets)."
-        ]    
+        ]
+        
         # Construct static lines
         static_lines_2 = [
             f"**Eingabe 1 (Daten, welche {descriptor_2} beschreibt):**",

@@ -131,8 +131,8 @@ material_prompt_components = {
     # Metallbaustoffe
     "examples_metallbaustoffe": '''
 **Example 1: Ambivalent data**
-- The Element name indicates "Blech". The element is external, so it needs to be resistant to corrosion.
-- All "material_options" entries with the name "blech" that are resistant to corrosion are matched.
+- The Element Type is an "IfcMember" and the material descriptor is "Stahl".
+- In this case, only consider "Stahlprofil, blank", and do NOT match "Stahlblech" entries.
 
 **Example 2: Specific data**
 - The Material Name says "Stahl" and the psets indicate that the element is load-bearing.
@@ -410,8 +410,8 @@ material_prompt_components_ger = {
     # Metallbaustoffe
     "examples_metallbaustoffe": '''
 **Beispiel 1: Uneindeutige Daten**
-- Der Elementname weist auf „Blech“ hin. Das Element ist außenliegend, daher muss es korrosionsbeständig sein.
-- Alle „material_options“-Einträge mit dem Namen „Blech“, die korrosionsbeständig sind, werden zugeordnet.
+- Der Element-Typ ist ein "IfcMember" und hat den Materialnamen "Stahl".
+- In diesem Fall werden nur "Stahlprofil, blank" berücksichtigt, und "Stahlblech"-Einträge werden nicht zugeordnet.
 
 **Beispiel 2: Genaue Daten**
 - Der Materialname lautet „Stahl“ und die Psets zeigen an, dass das Element tragend ist.

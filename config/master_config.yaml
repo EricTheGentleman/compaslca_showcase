@@ -30,7 +30,7 @@ category_inference_config:
 
   model: "gpt-4o"
 
-  api_key: 'YOUR_API_KEY_HERE'  # Replace with your actual API key
+  api_key: 'YOUR_API_KEY'  # Replace with your actual API key
   max_tokens: 2048
 
   temperature: 0
@@ -45,7 +45,7 @@ material_inference_config:
   model: "gpt-4o"
 
   # insert the API key in single quotation marks (')
-  api_key: 'YOUR_API_KEY_HERE'  # Replace with your actual API key
+  api_key: 'YOUR_API_KEY'  # Replace with your actual API key
   
   max_tokens: 2048
 
@@ -64,11 +64,11 @@ category_prompt_variables:
 
   # LLM should first identify key information, 
   # LLM then uses that information to decduce an answer.
-  extract_then_reason: false
+  extract_then_reason: true
 
   # LLM produces preliminary output
   # It evaluates and potentially improves upon its answer
-  iterative_self_refinement: false
+  iterative_self_refinement: true
 
   # The LLM is given an exemplary category match.
   # Examples only available for KBOB (Oekobaudat has empty examples)
@@ -91,22 +91,22 @@ material_prompt_variables:
   prioritize_sustainability: false #(false/true)
 
   # Prompt Language
-  language: "en" #("en"/"de")
+  language: "ger" #("en"/"de")
 
   # LLM uses Chain of Thought Reasoning
   chain_of_thought: false
 
   # LLM should first identify key information, 
   # LLM then uses that information to decduce an answer.
-  extract_then_reason: false
+  extract_then_reason: true
 
   # LLM produces preliminary output
   # It evaluates and potentially improves upon its answer
-  iterative_self_refinement: false
+  iterative_self_refinement: true
 
   # The LLM is given an context-aware exemples for the material inference.
   # Examples only available for KBOB (Oekobaudat has empty examples)
-  include_examples: false
+  include_examples: true
 
 
 
@@ -193,7 +193,3 @@ filter_config:
     - Element Property Sets
     - Element Relationships
     - Element Location
-
-
-
-
